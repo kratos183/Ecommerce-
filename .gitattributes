@@ -1,0 +1,34 @@
+# Git treated README.md as binary, permanently.
+#
+# The original README in the first commit had a stray UTF-16 fragment appended.
+# Git sniffs content, decided the file was binary, and from then on every diff
+# and merge of it said "Binary files differ" instead of showing lines — so a
+# one-character edit on GitHub produced a merge conflict nobody could read or
+# resolve.
+#
+# The file itself is fine now, but Git re-derives the binary flag per blob, so
+# this needs pinning explicitly. Without it the same trap reappears the next time
+# an editor saves the file with an unexpected encoding.
+
+* text=auto eol=lf
+
+*.md   text
+*.ts   text
+*.tsx  text
+*.js   text
+*.mjs  text
+*.mts  text
+*.json text
+*.sql  text
+*.css  text
+*.yml  text
+*.yaml text
+
+# Images are binary, whatever the content sniffer decides.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.svg  text
