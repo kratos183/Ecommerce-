@@ -886,7 +886,7 @@ function UserDashboardContent() {
         <div className="flex h-20 items-center gap-3 border-b border-slate-800 px-6">
           <Link href="/">
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-orange-600 to-amber-500 text-base font-black text-white shadow-lg shadow-orange-500/20">
-              N
+              E
             </span>
           </Link>
           {sidebarOpen && (

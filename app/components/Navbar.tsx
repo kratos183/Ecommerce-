@@ -174,10 +174,11 @@ export default function Navbar() {
           </button>
 
           <Link href="/" className="group flex shrink-0 items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600 font-bold text-lg text-white shadow-md transition-colors group-hover:bg-orange-700">
-              O
+            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600 text-lg font-bold text-white shadow-md transition-colors group-hover:bg-orange-700">
+              E
             </div>
-            {/* The wordmark carries the brand; hiding it below sm left a lone "O". */}
+            {/* The wordmark carries the brand; on narrow screens the monogram reads
+                as a bare letter, so it appears from 400px up rather than 640px. */}
             <span className="hidden text-lg font-extrabold tracking-tight text-gray-900 xs:block sm:text-xl">
               ECOMMERCE
             </span>

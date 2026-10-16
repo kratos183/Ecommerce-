@@ -101,7 +101,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-900 text-white">
-                <span className="text-sm font-bold">O</span>
+                <span className="text-sm font-bold">E</span>
               </div>
               <span className="text-lg font-extrabold tracking-tight text-slate-900">
                 {SITE.name}

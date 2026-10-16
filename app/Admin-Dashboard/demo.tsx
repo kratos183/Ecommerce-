@@ -877,7 +877,7 @@ export default function EduPressAdminDashboard() {
           {/* Logo Brand Header */}
           <div className="p-6 border-b border-slate-100 flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-orange-500 flex items-center justify-center text-white font-black text-lg shadow-md">
-              N
+              E
             </div>
             <div>
               <span className="font-black text-slate-900 text-base leading-none block">Ecommerce</span>
