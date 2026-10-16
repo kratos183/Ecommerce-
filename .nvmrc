@@ -1,0 +1,8 @@
+# Node version for Vercel and for local development.
+#
+# Pinned so a Vercel build cannot silently land on a different major than the one
+# the project is developed against. Next 16 requires Node 20.9 or newer; 24 is
+# the current LTS.
+#
+# Vercel reads this file and uses it for both the build and the runtime.
+24

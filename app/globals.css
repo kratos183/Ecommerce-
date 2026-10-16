@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+/*
+  The site is light-only: every page hardcodes white/gray surfaces. The previous
+  `prefers-color-scheme: dark` override flipped --foreground to near-white, which inputs
+  without an explicit text color inherited — producing invisible white text on the light
+  auth-page fields. Pin the light palette instead of following the OS.
+*/
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /*
+    An extra breakpoint below `sm`.
+
+    Tailwind's `sm` starts at 40rem (640px), which covers tablets and large
+    phones in landscape. Small phones in portrait — 320px to 430px, still a large
+    share of traffic in India — fall entirely below `sm` and are forced to share
+    one layout across a 2x range of widths. `xs` at 400px gives those a step to
+    change at.
+
+    Anything genuinely fluid should use flex/grid with `min-w-0` and relative
+    units rather than more breakpoints; this exists for the handful of layouts
+    where a single extra step is cheaper than making something fluid.
+  */
+  --breakpoint-xs: 25rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+  Clamp horizontal overflow at the root.
+
+  A single element a few pixels too wide — a long unbroken product name, a wide
+  table, an absolutely-positioned panel — gives the whole page a horizontal
+  scrollbar on a phone. Shoppers then pan sideways on a layout that has no
+  sideways to pan to.
+
+  `clip` rather than `hidden`: `hidden` makes the element a scroll container,
+  which silently breaks `position: sticky` on descendants — the navbar, the
+  category rail and the filter bar all depend on it. `clip` clips without
+  establishing a scrollport. The `hidden` line is the fallback for engines
+  without `clip`, and is overridden where it is understood.
+*/
+html {
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+/*
+  iOS Safari inflates text in its own font size when a page is rotated to
+  landscape, which breaks layouts that were sized against the CSS pixel width.
+*/
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/*
+  Respect the notch and the home indicator. Without this, a fixed bottom bar or
+  the sticky footer sits under the system UI on an iPhone.
+*/
+body {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/*
+  Form controls should pick up the themed foreground rather than a UA default.
+
+  This MUST live in @layer base. Tailwind v4 loads utilities inside @layer components, and
+  unlayered CSS beats every layer regardless of specificity — an unlayered
+  `button { color: inherit }` therefore overrode `.text-white`, turning white button labels
+  on dark backgrounds (Add to Cart, Checkout, Logout) into dark, unreadable text.
+*/
+@layer base {
+  input,
+  textarea,
+  select,
+  button {
+    color: inherit;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

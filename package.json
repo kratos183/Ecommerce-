@@ -1,0 +1,47 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check": "node --env-file=.env.local scripts/check-setup.mjs",
+    "seed": "node scripts/build-seed.mjs",
+    "test:rag": "tsx scripts/test-rag.ts",
+    "test:schema": "node scripts/test-schema.mjs",
+    "test:catalogue": "node scripts/test-catalogue.mjs",
+    "test:search": "tsx scripts/test-search.ts",
+    "test": "npm run test:schema && npm run test:catalogue && npm run test:search",
+    "images": "node scripts/resolve-images.mjs",
+    "images:force": "node scripts/resolve-images.mjs --force",
+    "reset:catalogue": "node scripts/reset-catalogue.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "@supabase/supabase-js": "^2.118.0",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.11.0",
+    "cookie": "^2.0.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.45.0",
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
