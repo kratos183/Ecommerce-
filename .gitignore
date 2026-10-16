@@ -1,0 +1,85 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  SECRETS — never commit these
+# ─────────────────────────────────────────────────────────────────────────────
+#
+#  .env.local holds live credentials in this project:
+#
+#    SUPABASE_SERVICE_ROLE_KEY   bypasses all row-level security. Anyone holding it
+#                               has full read/write on every table, including
+#                               every customer's address and order.
+#    RAZORPAY_KEY_SECRET         signs and verifies payment amounts.
+#    GROQ_API_KEY                billed per call.
+#
+#  Committing it does not merely leak the key, it publishes it — and a
+#  service-role key cannot be rotated by deleting the commit history from the
+#  server later. Keep it out.
+#
+#  .env.example IS committed on purpose: it documents the variable names with
+#  empty values so a new machine knows what to fill in.
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Dependencies — reinstallable, and enormous
+# ─────────────────────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/*
+!.yarn/patches
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Build output
+# ─────────────────────────────────────────────────────────────────────────────
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Logs
+# ─────────────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Tooling caches
+# ─────────────────────────────────────────────────────────────────────────────
+.turbo/
+.cache/
+.eslintcache
+coverage/
+*.lcov
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Local database used by the test suites
+#
+#  scripts/test-schema.mjs and scripts/test-catalogue.mjs spin up an in-process
+#  Postgres for their fixtures. It is disposable and often very large.
+# ─────────────────────────────────────────────────────────────────────────────
+.pglite/
+*.pglite/
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  OS / editor noise
+# ─────────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Keep the generated catalogue and its image sources
+#
+#  These two look like build artefacts but are deliberately committed: the seed
+#  must be reproducible offline, and `npm run seed` reads image-sources.mjs.
+#  Nothing under supabase/ or scripts/ is ignored.
+# ─────────────────────────────────────────────────────────────────────────────
