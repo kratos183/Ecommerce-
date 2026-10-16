@@ -649,7 +649,7 @@ export default function EduPressAdminDashboard() {
           slug: newBlogSlug || newBlogTitle.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
           category: newBlogCategory,
           cover_image: newBlogImage,
-          author: newBlogAuthor || currentAdmin?.name || "Obryn Team",
+          author: newBlogAuthor || currentAdmin?.name || "Ecommerce Team",
           author_role: newBlogAuthorRole || "Editorial Team",
           author_avatar: newBlogAuthorAvatar || null,
           read_time: newBlogReadTime || "8 min read",
@@ -880,7 +880,7 @@ export default function EduPressAdminDashboard() {
               N
             </div>
             <div>
-              <span className="font-black text-slate-900 text-base leading-none block">Obryn</span>
+              <span className="font-black text-slate-900 text-base leading-none block">Ecommerce</span>
               <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Solutions Console</span>
             </div>
           </div>
@@ -979,7 +979,7 @@ export default function EduPressAdminDashboard() {
             </div>
             <div className="overflow-hidden">
               <p className="text-xs font-black text-slate-900 truncate">Super Admin</p>
-              <p className="text-[11px] text-slate-500 truncate">{currentAdmin?.email || "admin@obryn.com"}</p>
+              <p className="text-[11px] text-slate-500 truncate">{currentAdmin?.email || "admin@ecommerce.com"}</p>
             </div>
           </div>
           <button
@@ -1365,7 +1365,7 @@ export default function EduPressAdminDashboard() {
                         <div className="p-5">
                           <h4 className="text-base font-black text-slate-900 leading-snug">{intern.title}</h4>
                           <p className="text-[10px] font-bold text-indigo-600 uppercase tracking-wider mt-0.5 mb-2">
-                            OBRYN INTERNSHIP
+                            ECOMMERCE INTERNSHIP
                           </p>
                           <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed mb-3">{intern.description}</p>
 

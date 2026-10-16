@@ -4,10 +4,13 @@
  * Both the Navbar mega menu and the Admin Dashboard product form render brands from
  * BRAND_GRID, so a brand added here shows up in both places at once.
  *
- * `Obryn` leads every list because the catalogue is now house-brand — every seeded
- * product has `brand = 'Obryn'`. The third-party names are kept so the filter still
- * works if you ever list real branded stock alongside your own; remove the ones you
- * do not carry, or the mega menu will offer filters that match nothing.
+ * `Ecommerce` leads every list as the house brand. The third-party names are the
+ * manufacturers actually stocked — Apple, Samsung, Canon, Shure and so on — so the
+ * brand filter is doing real work rather than filtering on our own name.
+ *
+ * CAVEAT: a brand listed here with no matching stock produces a filter that returns
+ * nothing. `npm run test:catalogue` reports which of these have no products so the
+ * list cannot quietly drift; remove any you do not carry.
  *
  * BRAND NAMES MUST MATCH `products.brand` EXACTLY. PostgREST `.eq()` is
  * case-sensitive, so "SONY" here would return nothing for "Sony" stock. The seed
@@ -18,7 +21,7 @@ export type BrandGrid = Record<string, string[]>;
 
 export const BRAND_GRID: BrandGrid = {
   Phone: [
-    "Obryn",
+    "Ecommerce",
     "Apple",
     "Samsung",
     "Xiaomi",
@@ -31,12 +34,12 @@ export const BRAND_GRID: BrandGrid = {
     "Motorola",
     "Nokia",
   ],
-  Laptop: ["Obryn", "Apple", "HP", "Lenovo", "Dell", "Asus"],
-  Airbud: ["Obryn", "boAt", "Samsung", "Apple", "Sony", "JBL"],
-  Speaker: ["Obryn", "JBL", "Sony", "Bose", "LG"],
-  Light: ["Obryn", "Philips", "Wipro", "Syska", "Godrej"],
+  Laptop: ["Ecommerce", "Apple", "HP", "Lenovo", "Dell", "Asus"],
+  Airbud: ["Ecommerce", "boAt", "Samsung", "Apple", "Sony", "JBL"],
+  Speaker: ["Ecommerce", "JBL", "Sony", "Bose", "LG"],
+  Light: ["Ecommerce", "Philips", "Wipro", "Syska", "Godrej"],
   "Digital Board": [
-    "Obryn",
+    "Ecommerce",
     "Apple",
     "Samsung",
     "HP",
@@ -49,15 +52,15 @@ export const BRAND_GRID: BrandGrid = {
     "iSlate",
     "Evota",
   ],
-  Tripod: ["Obryn", "DIGITEK", "Tygot", "Syvo", "NAFA", "ULANZI"],
-  Camera: ["Obryn", "Canon", "Sony", "Nikon", "Fujifilm"],
-  Mic: ["Obryn", "Shure", "Blue Yeti", "Rode", "Audio-Technica"],
-  OPS: ["Obryn", "Evota", "Intel", "AMD"],
-  Monitor: ["Obryn", "LG", "Samsung", "ViewSonic", "HP", "Dell"],
-  Acoustic: ["Obryn", "LG", "Samsung", "Panasonic"],
+  Tripod: ["Ecommerce", "DIGITEK", "Tygot", "Syvo", "NAFA", "ULANZI"],
+  Camera: ["Ecommerce", "Canon", "Sony", "Nikon", "Fujifilm"],
+  Mic: ["Ecommerce", "Shure", "Blue Yeti", "Rode", "Audio-Technica"],
+  OPS: ["Ecommerce", "Evota", "Intel", "AMD"],
+  Monitor: ["Ecommerce", "LG", "Samsung", "ViewSonic", "HP", "Dell"],
+  Acoustic: ["Ecommerce", "LG", "Samsung", "Panasonic"],
   Podium: ["Custom", "Wooden", "Acrylic"],
-  Accessories: ["Obryn", "Cables", "Mounts", "Stands", "Adapters"],
-  "Tablet / iPad": ["Obryn", "Apple", "Samsung", "Lenovo", "Microsoft"],
+  Accessories: ["Ecommerce", "Cables", "Mounts", "Stands", "Adapters"],
+  "Tablet / iPad": ["Ecommerce", "Apple", "Samsung", "Lenovo", "Microsoft"],
 };
 
 /**

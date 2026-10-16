@@ -214,7 +214,7 @@ function specsFor(product, index) {
         Panel: `${inch ?? "75"}-inch ${pick(["4K UHD", "4K UHD", "FHD"], index)} ${pick(["LED", "QLED", "IPS"], index)}`,
         "Touch Points": pick(["20", "20", "40", "10"], index),
         Brightness: `${pick([400, 450, 500], index)} nits`,
-        "Operating System": pick(["Android 11 with Obryn Classroom", "Android 13", "Windows 11 + Android dual OS"], index),
+        "Operating System": pick(["Android 11 with Ecommerce Classroom", "Android 13", "Windows 11 + Android dual OS"], index),
         Connectivity: "2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth",
         Audio: "2x 20 W built-in speakers",
         "OPS Support": pick(["Yes, pluggable Intel/AMD module", "Yes, standard 4-slot", "No"], index),
@@ -338,7 +338,7 @@ function introFor(product, index) {
     Accessories: `${brand} accessory built to the same standard as the equipment it connects to.`,
     Acoustic: `${brand} acoustic treatment to cut echo and reverberation in a hard-furnished room.`,
     Podium: `${brand} lectern, made to order in the finish that suits the room.`,
-  }[category] ?? `${brand} product from the Obryn range.`;
+  }[category] ?? `${brand} product from the Ecommerce range.`;
 
   return index % 3 === 0
     ? `${base} Supplied with a one-year manufacturer warranty and backed by our own support team.`
@@ -421,7 +421,7 @@ for (const p of CATALOGUE) {
 const short = Object.entries(perCategory).filter(([, n]) => n < 4);
 
 const sql = `-- ═══════════════════════════════════════════════════════════════════════════
---  Obryn — catalogue seed  (GENERATED FILE, DO NOT EDIT BY HAND)
+--  Ecommerce — catalogue seed  (GENERATED FILE, DO NOT EDIT BY HAND)
 -- ═══════════════════════════════════════════════════════════════════════════
 --
 --  Regenerate with:   node scripts/build-seed.mjs

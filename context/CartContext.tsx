@@ -50,11 +50,11 @@ type CartContextType = {
  * Bump the suffix when the shape of a stored cart changes, or stale carts from a
  * previous version will fail to parse into the new shape.
  *
- * NOTE: this key changed from "nitecore.cart.v1" during the Obryn rebrand, which
+ * NOTE: this key changed from "nitecore.cart.v1" during the Ecommerce rebrand, which
  * discards carts saved under the old name. Anyone mid-shopping lost their basket;
  * changing it back would restore theirs but keep the old brand in the code.
  */
-const STORAGE_KEY = "obryn.cart.v1";
+const STORAGE_KEY = "ecommerce.cart.v1";
 const MAX_QTY = 99;
 
 const CartContext = createContext<CartContextType>({

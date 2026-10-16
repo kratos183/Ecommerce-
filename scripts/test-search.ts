@@ -30,7 +30,7 @@ const P = (over: Record<string, unknown>) =>
     slug: String(over.slug ?? "p"),
     name: String(over.name ?? "Product"),
     category: String(over.category ?? "General"),
-    brand: String(over.brand ?? "Obryn"),
+    brand: String(over.brand ?? "Ecommerce"),
     price: Number(over.price ?? 1000),
     mrp: Number(over.mrp ?? 0),
     stock: Number(over.stock ?? 10),
@@ -40,18 +40,18 @@ const P = (over: Record<string, unknown>) =>
 
 const CATALOGUE = [
   // Nothing is literally called "mobile" — the whole point of the alias.
-  P({ id: 1, slug: "halo-5g", name: "Obryn Halo 5G 256 GB", category: "Phone", rating: 4.5, desc: "5G smartphone" }),
-  P({ id: 2, slug: "halo-pro", name: "Obryn Halo Pro 5G 512 GB", category: "Phone", rating: 4.7, desc: "Flagship phone" }),
-  P({ id: 3, slug: "pulse", name: "Obryn Pulse 5G 128 GB", category: "Phone", rating: 4.3, desc: "Slim phone" }),
-  P({ id: 4, slug: "air-14", name: 'Obryn Air 14" Ultrabook', category: "Laptop", rating: 4.7, desc: "2.8K OLED" }),
-  P({ id: 5, slug: "book-15", name: 'Obryn Book 15" Everyday Laptop', category: "Laptop", rating: 4.4 }),
-  P({ id: 6, slug: "apex-86", name: 'Obryn Apex 86" 4K Interactive Display', category: "Digital Board", rating: 4.8 }),
-  P({ id: 7, slug: "vertex-65", name: 'Obryn Vertex 65" 4K Interactive Panel', category: "Digital Board", rating: 4.6 }),
+  P({ id: 1, slug: "halo-5g", name: "Ecommerce Halo 5G 256 GB", category: "Phone", rating: 4.5, desc: "5G smartphone" }),
+  P({ id: 2, slug: "halo-pro", name: "Ecommerce Halo Pro 5G 512 GB", category: "Phone", rating: 4.7, desc: "Flagship phone" }),
+  P({ id: 3, slug: "pulse", name: "Ecommerce Pulse 5G 128 GB", category: "Phone", rating: 4.3, desc: "Slim phone" }),
+  P({ id: 4, slug: "air-14", name: 'Ecommerce Air 14" Ultrabook', category: "Laptop", rating: 4.7, desc: "2.8K OLED" }),
+  P({ id: 5, slug: "book-15", name: 'Ecommerce Book 15" Everyday Laptop', category: "Laptop", rating: 4.4 }),
+  P({ id: 6, slug: "apex-86", name: 'Ecommerce Apex 86" 4K Interactive Display', category: "Digital Board", rating: 4.8 }),
+  P({ id: 7, slug: "vertex-65", name: 'Ecommerce Vertex 65" 4K Interactive Panel', category: "Digital Board", rating: 4.6 }),
   // The one product that IS called "mobile".
-  P({ id: 8, slug: "mobile-stand", name: "Obryn Mobile Phone Stand", category: "Accessories", rating: 4.1 }),
-  P({ id: 10, slug: "halo-55", name: 'Obryn Halo 55" 4K Signage Display', category: "Monitor", rating: 4.6 }),
-  P({ id: 11, slug: "buds-pro", name: "Obryn Buds Air Pro ANC", category: "Airbud", rating: 4.6 }),
-  P({ id: 12, slug: "soundbar-40", name: 'Obryn Soundbar 40" 2.1 Channel', category: "Speaker", rating: 4.5 }),
+  P({ id: 8, slug: "mobile-stand", name: "Ecommerce Mobile Phone Stand", category: "Accessories", rating: 4.1 }),
+  P({ id: 10, slug: "halo-55", name: 'Ecommerce Halo 55" 4K Signage Display', category: "Monitor", rating: 4.6 }),
+  P({ id: 11, slug: "buds-pro", name: "Ecommerce Buds Air Pro ANC", category: "Airbud", rating: 4.6 }),
+  P({ id: 12, slug: "soundbar-40", name: 'Ecommerce Soundbar 40" 2.1 Channel', category: "Speaker", rating: 4.5 }),
 ];
 
 /* ── 1. Alias resolution ────────────────────────────────────────────────── */
@@ -205,7 +205,7 @@ const BRANDED = [
   // A brand that appears exactly once and would be missed by any minimum-count rule.
   P({ id: 29, slug: "ulanzi-mt", name: "ULANZI MT-44 Tripod", brand: "ULANZI", category: "Tripod" }),
   // Brand not repeated in the name, so a product-name query must not summon a chip.
-  P({ id: 30, slug: "apex-55", name: 'Obryn Apex 55" Signage Display', brand: "Obryn", category: "Monitor" }),
+  P({ id: 30, slug: "apex-55", name: 'Ecommerce Apex 55" Signage Display', brand: "Ecommerce", category: "Monitor" }),
 ];
 
 const brandCount = (brand: string) => BRANDED.filter((p) => p.brand === brand).length;

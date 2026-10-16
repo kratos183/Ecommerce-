@@ -51,7 +51,7 @@ export function db(): SupabaseClient {
         persistSession: false,
         autoRefreshToken: false,
       },
-      global: { headers: { "x-application-name": "obryn-storefront" } },
+      global: { headers: { "x-application-name": "ecommerce-storefront" } },
     });
   }
 

@@ -73,7 +73,7 @@ export default function FrequentlyBoughtTogether({ bundles }: { bundles: Bundle[
               Frequently bought together
             </h2>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-gray-500">
-              The setups our customers buy again and again, paired by the Obryn team.
+              The setups our customers buy again and again, paired by the Ecommerce team.
               Tick what you need and add the whole set to your cart in one go.
             </p>
           </div>
@@ -258,7 +258,7 @@ export default function FrequentlyBoughtTogether({ bundles }: { bundles: Bundle[
 
               <a
                 href={whatsappLink(
-                  `Hi Obryn, I'd like this bundle:\n${chosen
+                  `Hi Ecommerce, I'd like this bundle:\n${chosen
                     .map((item) => `• ${item.name} — ${inr(item.price)}`)
                     .join("\n")}\nTotal: ${inr(total)}`
                 )}

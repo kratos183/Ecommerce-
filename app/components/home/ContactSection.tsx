@@ -43,7 +43,7 @@ export default function ContactSection() {
                 </a>
                 <a
                   href={whatsappLink(
-                    "Hi Obryn, I'd like a quote for a classroom / studio setup."
+                    "Hi Ecommerce, I'd like a quote for a classroom / studio setup."
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -93,7 +93,7 @@ export default function ContactSection() {
 
               <form
                 className="mt-7 space-y-5"
-                action="mailto:obryn@example.com"
+                action="mailto:ecommerce@example.com"
                 method="post"
                 encType="text/plain"
               >

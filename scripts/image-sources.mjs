@@ -2459,7 +2459,7 @@ export const IMAGE_SOURCES = {
       "credit": "Connector (Multitone Electronics hearing aid)"
     }
   ],
-  "obryn-wireless-keyboard-mouse-combo": [
+  "ecommerce-wireless-keyboard-mouse-combo": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "credit": "NKC electronics XEM1541 V6 (Commodore XE+XM1541 Adapter) VIN-0100"
@@ -2477,7 +2477,7 @@ export const IMAGE_SOURCES = {
       "credit": "Connector (Multitone Electronics hearing aid)"
     }
   ],
-  "obryn-laptop-sleeve-14": [
+  "ecommerce-laptop-sleeve-14": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "credit": "NKC electronics XEM1541 V6 (Commodore XE+XM1541 Adapter) VIN-0100"
@@ -2495,7 +2495,7 @@ export const IMAGE_SOURCES = {
       "credit": "Connector (Multitone Electronics hearing aid)"
     }
   ],
-  "obryn-laptop-sleeve-16": [
+  "ecommerce-laptop-sleeve-16": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "credit": "NKC electronics XEM1541 V6 (Commodore XE+XM1541 Adapter) VIN-0100"
@@ -2621,7 +2621,7 @@ export const IMAGE_SOURCES = {
       "credit": "Dais d'autel à fleur de lis et ostensoire"
     }
   ],
-  "obryn-acoustic-ceiling-tile-20mm-box-of-8": [
+  "ecommerce-acoustic-ceiling-tile-20mm-box-of-8": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Church_Army_chapel_012.jpg/1280px-Church_Army_chapel_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "credit": "Church Army chapel 012"
@@ -2639,7 +2639,7 @@ export const IMAGE_SOURCES = {
       "credit": "Union Pacific Harriman Dispatch Center"
     }
   ],
-  "obryn-bass-trap-corner-set-pair": [
+  "ecommerce-bass-trap-corner-set-pair": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Church_Army_chapel_012.jpg/1280px-Church_Army_chapel_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "credit": "Church Army chapel 012"

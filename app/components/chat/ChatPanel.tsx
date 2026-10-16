@@ -50,7 +50,7 @@ const STARTERS = [
    ────────────────────────────────────────────────────────────────────────── */
 
 /**
- * The Obryn assistant.
+ * The Ecommerce assistant.
  *
  * Consumes the SSE stream from /api/chat, appending text deltas as they arrive so
  * the reply appears token by token. Conversation history is sent back with each
@@ -220,7 +220,7 @@ export default function ChatPanel() {
             <Sparkles className="h-5 w-5" />
           </span>
           <div>
-            <h2 className="text-sm font-bold text-slate-900">Ask Obryn</h2>
+            <h2 className="text-sm font-bold text-slate-900">Ask Ecommerce</h2>
             <p className="text-[11px] text-slate-500">
               Answers about your orders, our products and our policies
             </p>

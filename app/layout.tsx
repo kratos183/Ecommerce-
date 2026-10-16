@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "headphones",
     "cameras",
     "computer accessories",
-    "Obryn",
+    "Ecommerce",
   ],
   openGraph: {
     title: `${SITE.name} — ${SITE.tagline}`,

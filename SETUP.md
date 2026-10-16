@@ -1,4 +1,4 @@
-# Obryn — storefront
+# Ecommerce — storefront
 
 A full online storefront for electronics — phones, laptops, tablets, TVs and
 displays, audio, cameras and accessories — with installation and bulk ordering
@@ -114,7 +114,7 @@ npm run images:force    # re-source everything from scratch
 > Wikimedia Commons is a volunteer encyclopedia, not a product catalogue. It has
 > thorough coverage of mass-market phones (Galaxy S24, Redmi Note 13, POCO X6,
 > vivo V30) and effectively none of the niche SKUs here — no MAXHUB V6 86", no
-> Shure MV7, no Obryn acoustic tile. When it has no photo, its search returns
+> Shure MV7, no Ecommerce acoustic tile. When it has no photo, its search returns
 > *something*, and what it returns is arbitrary.
 >
 > **Treat every seeded image as artwork to be replaced.** A working URL showing
@@ -266,10 +266,10 @@ which calls `revalidatePath("/")` so the homepage updates immediately.
 
 ```sql
 update products
-   set bundle_slugs = '["obryn-stylus-pen-2","obryn-usb-c-cable-2m"]'::jsonb,
+   set bundle_slugs = '["ecommerce-stylus-pen-2","ecommerce-usb-c-cable-2m"]'::jsonb,
        mrp = 220000,
        is_deal = true
- where slug = 'obryn-apex-75';
+ where slug = 'ecommerce-apex-75';
 ```
 
 The homepage is re-rendered from Postgres at most once a minute
@@ -335,9 +335,9 @@ orders rather than the store's, which is a dead end rather than a useful page.
 
 ---
 
-## 5. The AI assistant ("Ask Obryn")
+## 5. The AI assistant ("Ask Ecommerce")
 
-A retrieval-augmented customer service assistant, in the **Ask Obryn** tab of the
+A retrieval-augmented customer service assistant, in the **Ask Ecommerce** tab of the
 user dashboard. It answers questions about the customer's own orders, the product
 catalogue and the store's policies — and shows which sources each answer used.
 

@@ -8,7 +8,7 @@ import { buildSystemPrompt, toCitations, type PromptInput, type HistoryTurn } fr
 import { GroqError, isGroqConfigured, activeModel, streamChat, type ChatMessage } from "@/lib/rag/groq";
 
 /**
- * POST /api/chat — the Obryn assistant.
+ * POST /api/chat — the Ecommerce assistant.
  *
  * The pipeline, in order:
  *   1. Authenticate. Personal context is only ever built for a real session.

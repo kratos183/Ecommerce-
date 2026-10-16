@@ -417,7 +417,7 @@ export default function CheckoutPage() {
       key: checkoutSession.keyId,
       amount: checkoutSession.amount,
       currency: checkoutSession.currency,
-      name: "OBRYN",
+      name: "ECOMMERCE",
       description:
         checkoutSession.items.length === 1
           ? checkoutSession.items[0].name

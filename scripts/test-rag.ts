@@ -52,7 +52,7 @@ check(
 const productChunk = chunkProduct(
   toProduct({
     id: 1,
-    name: "Obryn Apex 86\"",
+    name: "Ecommerce Apex 86\"",
     slug: "apex",
     category: "Digital Board",
     price: 285000,
@@ -92,10 +92,10 @@ const personal: PersonalBrief = {
       date: "18 Apr 2026",
       status: "delivered",
       total: 289697,
-      items: ["Obryn Apex 86\" (x1)"],
+      items: ["Ecommerce Apex 86\" (x1)"],
     },
   ],
-  wishlist: [{ name: "Obryn Buds Air Pro ANC", slug: "buds", price: 4999 }],
+  wishlist: [{ name: "Ecommerce Buds Air Pro ANC", slug: "buds", price: 4999 }],
   addresses: ["Home — Dhanbad, Jharkhand"],
   stats: { totalOrders: 1, activeOrders: 0, lifetimeValue: 289697 },
 };
@@ -114,10 +114,10 @@ check("prompt has the grounding rule", prompt.includes("Answer only from the CON
 check("prompt forbids inventing prices", /never invent/i.test(prompt));
 check("prompt names the customer", prompt.includes("Priya Nair"));
 check("prompt contains the order number", prompt.includes("OB-ABC123"));
-check("prompt contains the order item", prompt.includes('Obryn Apex 86'));
-check("prompt contains the wishlist", prompt.includes("Obryn Buds Air Pro ANC"));
+check("prompt contains the order item", prompt.includes('Ecommerce Apex 86'));
+check("prompt contains the wishlist", prompt.includes("Ecommerce Buds Air Pro ANC"));
 check("prompt contains retrieved context", prompt.includes("[1] Returns and refunds"));
-check("prompt does NOT leak the system message into history", !prompt.includes("customer service assistant for **Obryn**\n\n## The one rule"));
+check("prompt does NOT leak the system message into history", !prompt.includes("customer service assistant for **Ecommerce**\n\n## The one rule"));
 
 const degradedPrompt = buildSystemPrompt({ ...input, degraded: true, chunks: [] });
 check("degraded prompt warns the model", degradedPrompt.includes("Retrieval was degraded"));

@@ -54,7 +54,7 @@ const LINK_GROUPS = [
   {
     title: "Company",
     links: [
-      { label: "About Obryn", href: "/#about" },
+      { label: "About Ecommerce", href: "/#about" },
       { label: "Contact Us", href: "/#support" },
       { label: "Your Orders", href: "/user-dashboard?tab=orders" },
       { label: "Your Wishlist", href: "/user-dashboard?tab=wishlist" },
@@ -141,7 +141,7 @@ export default function Footer() {
 
             <div className="mt-6 flex flex-wrap gap-2">
               <a
-                href={whatsappLink("Hi Obryn, I'd like to know more about your products.")}
+                href={whatsappLink("Hi Ecommerce, I'd like to know more about your products.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg bg-gray-900 px-3.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-gray-700"
@@ -204,7 +204,7 @@ export default function Footer() {
           </div>
 
           <div className="sm:text-right">
-            <p className="text-xs font-semibold text-gray-700">Follow Obryn</p>
+            <p className="text-xs font-semibold text-gray-700">Follow Ecommerce</p>
             <div className="mt-2.5 flex gap-2 sm:justify-end">
               {SOCIALS.map((social) => (
                 <a

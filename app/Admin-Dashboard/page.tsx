@@ -949,7 +949,7 @@ const AdminDashboard = () => {
             {sidebarOpen && (
               <div>
                 <span className="font-black text-sm tracking-tight block text-white leading-none">
-                  Obryn
+                  Ecommerce
                 </span>
                 <span className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase">
                   Admin Console

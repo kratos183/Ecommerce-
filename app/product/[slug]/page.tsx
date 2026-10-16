@@ -221,7 +221,7 @@ export default function DynamicProductSlugPage() {
 
   const priceNum = Number(product.price) || 0;
   const originalPriceNum = priceNum > 0 ? Math.round(priceNum * 1.35) : 0;
-  const brandName = product.brand || product.category?.replace(/-/g, ' ') || 'Obryn';
+  const brandName = product.brand || product.category?.replace(/-/g, ' ') || 'Ecommerce';
 
   return (
     <div className="min-h-screen bg-white font-sans text-slate-900">

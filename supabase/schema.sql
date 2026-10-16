@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════════════
---  Obryn — Supabase (Postgres) schema
+--  Ecommerce — Supabase (Postgres) schema
 -- ═══════════════════════════════════════════════════════════════════════════
 --
 --  HOW TO APPLY
@@ -61,7 +61,7 @@ create table if not exists public.products (
   deal_ends_at       timestamptz,               -- drives the Deal-of-the-Day countdown
 
   -- Cross-sell. Slugs (not ids) so a bundle survives a product being re-imported.
-  -- e.g. '["obryn-stylus-pen-2", "obryn-usb-c-cable-2m"]'
+  -- e.g. '["ecommerce-stylus-pen-2", "ecommerce-usb-c-cable-2m"]'
   bundle_slugs       jsonb       not null default '[]'::jsonb,
 
   created_at         timestamptz not null default now(),

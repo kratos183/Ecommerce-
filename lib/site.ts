@@ -8,11 +8,11 @@
  */
 
 export const SITE = {
-  name: "OBRYN",
-  /** Used in prose and sentence case: "Obryn". */
-  shortName: "Obryn",
+  name: "ECOMMERCE",
+  /** Used in prose and sentence case: "Ecommerce". */
+  shortName: "Ecommerce",
   /** The wordmark, rendered as-is in the Navbar. */
-  wordmarkLead: "OBRYN",
+  wordmarkLead: "ECOMMERCE",
   wordmarkAccent: "",
 
   /**
@@ -23,15 +23,15 @@ export const SITE = {
 
   /**
    * The longer promise, used for meta description and the footer's opening line.
-   * Deliberately category-agnostic — Obryn is a general online store, not a
+   * Deliberately category-agnostic — Ecommerce is a general online store, not a
    * specialist in one product.
    */
   pitch:
-    "Obryn is a full online store for electronics, computers, audio, cameras, accessories and office equipment — with honest pricing, fast delivery across India and real support when you need it.",
+    "Ecommerce is a full online store for electronics, computers, audio, cameras, accessories and office equipment — with honest pricing, fast delivery across India and real support when you need it.",
 
   /** What the business does — drives the footer's opening paragraph. */
   about:
-    "Obryn is an online store for electronics, computers, audio, cameras and everyday tech. Buy online with secure payment, free delivery on larger orders, easy returns and a support team that actually answers — plus installation and setup for the displays, computers and studio gear we sell.",
+    "Ecommerce is an online store for electronics, computers, audio, cameras and everyday tech. Buy online with secure payment, free delivery on larger orders, easy returns and a support team that actually answers — plus installation and setup for the displays, computers and studio gear we sell.",
 
   phoneDisplay: "+91 7992430183",
   /** Digits only, E.164 without the +, for wa.me links. */

@@ -103,7 +103,7 @@ const TABS = [
   { id: "orders", label: "My Orders", icon: ShoppingBag },
   { id: "cart", label: "Cart", icon: Package },
   { id: "wishlist", label: "Wishlist", icon: Heart },
-  { id: "assistant", label: "Ask Obryn", icon: Sparkles },
+  { id: "assistant", label: "Ask Ecommerce", icon: Sparkles },
   { id: "addresses", label: "Addresses", icon: MapPin },
   { id: "profile", label: "Profile", icon: User },
   { id: "settings", label: "Settings", icon: Settings },
@@ -116,7 +116,7 @@ const TAB_TITLES: Record<TabId, string> = {
   orders: "My Orders",
   cart: "Shopping Cart",
   wishlist: "My Wishlist",
-  assistant: "Ask Obryn",
+  assistant: "Ask Ecommerce",
   addresses: "Saved Addresses",
   profile: "Profile Details",
   settings: "Account Settings",
@@ -1696,7 +1696,7 @@ function UserDashboardContent() {
           )}
 
           {/* ═══════════════════════════════════════════════════════
-              TAB: ASK OBRYN (AI assistant)
+              TAB: ASK ECOMMERCE (AI assistant)
               ═══════════════════════════════════════════════════════ */}
           {activeTab === "assistant" && (
             /* Height is the viewport minus the h-16 page header and this

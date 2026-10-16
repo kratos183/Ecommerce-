@@ -1,5 +1,5 @@
 /**
- * Prompt construction for the Obryn assistant.
+ * Prompt construction for the Ecommerce assistant.
  *
  * This is where the grounding rules live. A retrieval-augmented assistant fails
  * in a specific way: it has a plausible-sounding business to talk about, so when
@@ -18,7 +18,7 @@ import { SITE } from "@/lib/site";
  * wrong, not by importance — grounding first, because every other failure is
  * downstream of it.
  */
-const BASE_INSTRUCTIONS = `You are the customer service assistant for **Obryn**, an online electronics store in India selling phones, laptops, tablets, displays, computers, audio, cameras and accessories.
+const BASE_INSTRUCTIONS = `You are the customer service assistant for **Ecommerce**, an online electronics store in India selling phones, laptops, tablets, displays, computers, audio, cameras and accessories.
 
 ## The one rule that matters most
 
@@ -37,7 +37,7 @@ A confident wrong answer about a refund window or a price is far worse than "I d
 7. **Use Indian Rupees with the ₹ symbol and lakh/crore grouping** where natural, matching how prices appear in the context.
 8. **End with a next step** when one is useful — a product link, a phone number, or what to send you for a quote.
 
-## What Obryn sells
+## What Ecommerce sells
 
 Phones and tablets, laptops and computers, TVs and monitors including large interactive displays and digital signage panels, audio and headphones, cameras and studio equipment, and accessories such as cables, mounts, styluses, chargers and cases. Installation and annual maintenance are available for the products that need them, and bulk and corporate orders are welcome.
 

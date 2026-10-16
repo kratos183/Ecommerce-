@@ -96,7 +96,7 @@ export function chunkProduct(product: Product): Chunk {
 
   const lines = [
     `${product.name}.`,
-    `Brand: ${product.brand || "Obryn"}. Category: ${product.category}.`,
+    `Brand: ${product.brand || "Ecommerce"}. Category: ${product.category}.`,
     `Price: ${product.price > 0 ? inr(product.price) : "priced on request"}${
       product.mrp > product.price ? ` (was ${inr(product.mrp)})` : ""
     }.`,

@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════════════
---  Obryn — catalogue seed  (GENERATED FILE, DO NOT EDIT BY HAND)
+--  Ecommerce — catalogue seed  (GENERATED FILE, DO NOT EDIT BY HAND)
 -- ═══════════════════════════════════════════════════════════════════════════
 --
 --  Regenerate with:   node scripts/build-seed.mjs
@@ -503,7 +503,7 @@ values
   false,
   null,
   '["evota-65-4k-interactive-panel","maxhub-v6-86-4k-interactive-flat-panel","viewsonic-ifp7550-75-4k-interactive-display"]'::jsonb,
-  '{"Panel":"75-inch 4K UHD LED","Touch Points":"20","Brightness":"400 nits","Operating System":"Android 11 with Obryn Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"Honor","_category":"Digital Board"}'::jsonb
+  '{"Panel":"75-inch 4K UHD LED","Touch Points":"20","Brightness":"400 nits","Operating System":"Android 11 with Ecommerce Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"Honor","_category":"Digital Board"}'::jsonb
 ),
 (
   'Nokia G42 5G 128 GB',
@@ -1523,7 +1523,7 @@ values
   false,
   null,
   '["viewsonic-ifp6550-65-4k-interactive-panel","islate-75-interactive-flat-panel","samsung-flip-wm55r-55-digital-flipchart"]'::jsonb,
-  '{"Panel":"65-inch 4K UHD LED","Touch Points":"20","Brightness":"400 nits","Operating System":"Android 11 with Obryn Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"MAXHUB","_category":"Digital Board"}'::jsonb
+  '{"Panel":"65-inch 4K UHD LED","Touch Points":"20","Brightness":"400 nits","Operating System":"Android 11 with Ecommerce Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"MAXHUB","_category":"Digital Board"}'::jsonb
 ),
 (
   'ViewSonic IFP7550 75" 4K Interactive Display',
@@ -1583,7 +1583,7 @@ values
   false,
   null,
   '["islate-75-interactive-flat-panel","samsung-flip-wm55r-55-digital-flipchart","maxhub-v6-86-4k-interactive-flat-panel"]'::jsonb,
-  '{"Panel":"55-inch 4K UHD LED","Touch Points":"10","Brightness":"400 nits","Operating System":"Android 11 with Obryn Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"ViewSonic","_category":"Digital Board"}'::jsonb
+  '{"Panel":"55-inch 4K UHD LED","Touch Points":"10","Brightness":"400 nits","Operating System":"Android 11 with Ecommerce Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"ViewSonic","_category":"Digital Board"}'::jsonb
 ),
 (
   'iSlate 86" AI Interactive Smart Board',
@@ -1643,7 +1643,7 @@ values
   false,
   null,
   '["maxhub-v6-86-4k-interactive-flat-panel","viewsonic-ifp7550-75-4k-interactive-display","islate-86-ai-interactive-smart-board"]'::jsonb,
-  '{"Panel":"75-inch 4K UHD LED","Touch Points":"40","Brightness":"400 nits","Operating System":"Android 11 with Obryn Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"Evota","_category":"Digital Board"}'::jsonb
+  '{"Panel":"75-inch 4K UHD LED","Touch Points":"40","Brightness":"400 nits","Operating System":"Android 11 with Ecommerce Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"Evota","_category":"Digital Board"}'::jsonb
 ),
 (
   'Evota 65" 4K Interactive Panel',
@@ -1703,7 +1703,7 @@ values
   false,
   null,
   '["evota-75-dual-os-interactive-panel","honor-x9b-75-4k-interactive-display","maxhub-e3-65-4k-interactive-panel"]'::jsonb,
-  '{"Panel":"86-inch 4K UHD LED","Touch Points":"20","Brightness":"400 nits","Operating System":"Android 11 with Obryn Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"LG","_category":"Digital Board"}'::jsonb
+  '{"Panel":"86-inch 4K UHD LED","Touch Points":"20","Brightness":"400 nits","Operating System":"Android 11 with Ecommerce Classroom","Connectivity":"2x HDMI, 2x USB-A, USB-C, RJ45, Wi-Fi 6, Bluetooth","Audio":"2x 20 W built-in speakers","OPS Support":"Yes, pluggable Intel/AMD module","Lifespan":"50,000 hours","Warranty":"3 years on-site warranty","_brand":"LG","_category":"Digital Board"}'::jsonb
 ),
 (
   'Samsung QM55R 55" 4K QLED Signage Display',
@@ -2522,7 +2522,7 @@ values
   true,
   true,
   now() + interval '3 day',
-  '["stands-tablet-folio-case-11","adapters-usb-c-to-hdmi-adapter-4k","obryn-laptop-sleeve-14"]'::jsonb,
+  '["stands-tablet-folio-case-11","adapters-usb-c-to-hdmi-adapter-4k","ecommerce-laptop-sleeve-14"]'::jsonb,
   '{"Type":"Wall mount","Length":"3 m","Connector":"VESA 400x400","Rating":"65 kg load capacity","Material":"Ballistic nylon","Colour":"Space grey","Warranty":"1 year manufacturer warranty","_brand":"Cables","_category":"Accessories"}'::jsonb
 ),
 (
@@ -2542,7 +2542,7 @@ values
   false,
   false,
   null,
-  '["adapters-65-w-gan-fast-charger","adapters-usb-a-to-usb-c-otg-adapter","obryn-laptop-sleeve-16"]'::jsonb,
+  '["adapters-65-w-gan-fast-charger","adapters-usb-a-to-usb-c-otg-adapter","ecommerce-laptop-sleeve-16"]'::jsonb,
   '{"Type":"Active stylus","Length":"5 m","Connector":"XLR 3-pin","Rating":"10 Gbps data","Material":"Aluminium alloy","Colour":"White","Warranty":"1 year manufacturer warranty","_brand":"Cables","_category":"Accessories"}'::jsonb
 ),
 (
@@ -2562,7 +2562,7 @@ values
   false,
   false,
   null,
-  '["adapters-120-w-gan-laptop-charger","obryn-wireless-keyboard-mouse-combo","mounts-heavy-duty-wall-mount-for-55-98"]'::jsonb,
+  '["adapters-120-w-gan-laptop-charger","ecommerce-wireless-keyboard-mouse-combo","mounts-heavy-duty-wall-mount-for-55-98"]'::jsonb,
   '{"Type":"GaN charger","Length":"1.5 m","Connector":"N/A","Rating":"8K 48 Gbps","Material":"Braided nylon","Colour":"Black","Warranty":"1 year manufacturer warranty","_brand":"Cables","_category":"Accessories"}'::jsonb
 ),
 (
@@ -2582,7 +2582,7 @@ values
   false,
   false,
   null,
-  '["adapters-usb-c-to-hdmi-adapter-4k","obryn-laptop-sleeve-14","mounts-ceiling-mount-for-43-75"]'::jsonb,
+  '["adapters-usb-c-to-hdmi-adapter-4k","ecommerce-laptop-sleeve-14","mounts-ceiling-mount-for-43-75"]'::jsonb,
   '{"Type":"Sleeve","Length":"2 m","Connector":"HDMI 2.1","Rating":"100 W Power Delivery","Material":"Powder-coated steel","Colour":"Graphite","Warranty":"1 year manufacturer warranty","_brand":"Cables","_category":"Accessories"}'::jsonb
 ),
 (
@@ -2702,7 +2702,7 @@ values
   false,
   false,
   null,
-  '["mounts-ceiling-mount-for-43-75","adapters-120-w-gan-laptop-charger","obryn-wireless-keyboard-mouse-combo"]'::jsonb,
+  '["mounts-ceiling-mount-for-43-75","adapters-120-w-gan-laptop-charger","ecommerce-wireless-keyboard-mouse-combo"]'::jsonb,
   '{"Type":"USB-C cable","Length":"5 m","Connector":"USB-C to USB-C","Rating":"10 Gbps data","Material":"Aluminium alloy","Colour":"White","Warranty":"1 year manufacturer warranty","_brand":"Stands","_category":"Accessories"}'::jsonb
 ),
 (
@@ -2762,7 +2762,7 @@ values
   false,
   false,
   null,
-  '["mounts-heavy-duty-wall-mount-for-55-98","stands-active-stylus-pen-pack-of-2","obryn-wireless-keyboard-mouse-combo"]'::jsonb,
+  '["mounts-heavy-duty-wall-mount-for-55-98","stands-active-stylus-pen-pack-of-2","ecommerce-wireless-keyboard-mouse-combo"]'::jsonb,
   '{"Type":"GaN charger","Length":"3 m","Connector":"N/A","Rating":"65 kg load capacity","Material":"Ballistic nylon","Colour":"Space grey","Warranty":"1 year manufacturer warranty","_brand":"Adapters","_category":"Accessories"}'::jsonb
 ),
 (
@@ -2782,19 +2782,19 @@ values
   false,
   false,
   null,
-  '["mounts-ceiling-mount-for-43-75","stands-boom-arm-desk-clamp-for-microphone","obryn-laptop-sleeve-14"]'::jsonb,
+  '["mounts-ceiling-mount-for-43-75","stands-boom-arm-desk-clamp-for-microphone","ecommerce-laptop-sleeve-14"]'::jsonb,
   '{"Type":"Sleeve","Length":"5 m","Connector":"HDMI 2.1","Rating":"10 Gbps data","Material":"Aluminium alloy","Colour":"White","Warranty":"1 year manufacturer warranty","_brand":"Adapters","_category":"Accessories"}'::jsonb
 ),
 (
-  'Obryn Wireless Keyboard & Mouse Combo',
-  'obryn-wireless-keyboard-mouse-combo',
+  'Ecommerce Wireless Keyboard & Mouse Combo',
+  'ecommerce-wireless-keyboard-mouse-combo',
   'Accessories',
-  'Obryn',
+  'Ecommerce',
   24000,
   28000,
   'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail',
   '["https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Velleman_PS1810AC_wallplug_adapter.JPG/1280px-Velleman_PS1810AC_wallplug_adapter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://upload.wikimedia.org/wikipedia/commons/c/c5/IOIO_OTG_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Connector_%28Multitone_Electronics_hearing_aid%29.jpg/1280px-Connector_%28Multitone_Electronics_hearing_aid%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
-  'Obryn accessory built to the same standard as the equipment it connects to. Ships across India with installation available on larger equipment.',
+  'Ecommerce accessory built to the same standard as the equipment it connects to. Ships across India with installation available on larger equipment.',
   'Popular',
   4.4,
   693,
@@ -2803,18 +2803,18 @@ values
   false,
   null,
   '["adapters-65-w-gan-fast-charger","adapters-usb-a-to-usb-c-otg-adapter","cables-xlr-balanced-cable-5-m"]'::jsonb,
-  '{"Type":"Keyboard & mouse combo","Length":"1.5 m","Connector":"USB-C to USB-C","Rating":"8K 48 Gbps","Material":"Braided nylon","Colour":"Black","Warranty":"1 year manufacturer warranty","_brand":"Obryn","_category":"Accessories"}'::jsonb
+  '{"Type":"Keyboard & mouse combo","Length":"1.5 m","Connector":"USB-C to USB-C","Rating":"8K 48 Gbps","Material":"Braided nylon","Colour":"Black","Warranty":"1 year manufacturer warranty","_brand":"Ecommerce","_category":"Accessories"}'::jsonb
 ),
 (
-  'Obryn Laptop Sleeve 14"',
-  'obryn-laptop-sleeve-14',
+  'Ecommerce Laptop Sleeve 14"',
+  'ecommerce-laptop-sleeve-14',
   'Accessories',
-  'Obryn',
+  'Ecommerce',
   7000,
   9000,
   'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail',
   '["https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Velleman_PS1810AC_wallplug_adapter.JPG/1280px-Velleman_PS1810AC_wallplug_adapter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://upload.wikimedia.org/wikipedia/commons/c/c5/IOIO_OTG_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Connector_%28Multitone_Electronics_hearing_aid%29.jpg/1280px-Connector_%28Multitone_Electronics_hearing_aid%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
-  'Obryn accessory built to the same standard as the equipment it connects to. In stock and ready to dispatch.',
+  'Ecommerce accessory built to the same standard as the equipment it connects to. In stock and ready to dispatch.',
   '',
   4.5,
   288,
@@ -2823,18 +2823,18 @@ values
   false,
   null,
   '["adapters-120-w-gan-laptop-charger","cables-certified-8k-hdmi-cable-3-m","cables-cat6-lan-patch-cable-3-m"]'::jsonb,
-  '{"Type":"Boom arm","Length":"2 m","Connector":"VESA 400x400","Rating":"100 W Power Delivery","Material":"Powder-coated steel","Colour":"Graphite","Warranty":"1 year manufacturer warranty","_brand":"Obryn","_category":"Accessories"}'::jsonb
+  '{"Type":"Boom arm","Length":"2 m","Connector":"VESA 400x400","Rating":"100 W Power Delivery","Material":"Powder-coated steel","Colour":"Graphite","Warranty":"1 year manufacturer warranty","_brand":"Ecommerce","_category":"Accessories"}'::jsonb
 ),
 (
-  'Obryn Laptop Sleeve 16"',
-  'obryn-laptop-sleeve-16',
+  'Ecommerce Laptop Sleeve 16"',
+  'ecommerce-laptop-sleeve-16',
   'Accessories',
-  'Obryn',
+  'Ecommerce',
   5500,
   7000,
   'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail',
   '["https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg/1280px-NKC_electronics_XEM1541_V6_%28Commodore_XE%2BXM1541_Adapter%29_VIN-0100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Velleman_PS1810AC_wallplug_adapter.JPG/1280px-Velleman_PS1810AC_wallplug_adapter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://upload.wikimedia.org/wikipedia/commons/c/c5/IOIO_OTG_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Connector_%28Multitone_Electronics_hearing_aid%29.jpg/1280px-Connector_%28Multitone_Electronics_hearing_aid%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
-  'Obryn accessory built to the same standard as the equipment it connects to. Supplied with a one-year manufacturer warranty and backed by our own support team.',
+  'Ecommerce accessory built to the same standard as the equipment it connects to. Supplied with a one-year manufacturer warranty and backed by our own support team.',
   '',
   4.4,
   176,
@@ -2843,7 +2843,7 @@ values
   false,
   null,
   '["adapters-usb-c-to-hdmi-adapter-4k","cables-usb-c-100-w-braided-cable-2-m","mounts-heavy-duty-wall-mount-for-55-98"]'::jsonb,
-  '{"Type":"Adapter","Length":"3 m","Connector":"XLR 3-pin","Rating":"65 kg load capacity","Material":"Ballistic nylon","Colour":"Space grey","Warranty":"1 year manufacturer warranty","_brand":"Obryn","_category":"Accessories"}'::jsonb
+  '{"Type":"Adapter","Length":"3 m","Connector":"XLR 3-pin","Rating":"65 kg load capacity","Material":"Ballistic nylon","Colour":"Space grey","Warranty":"1 year manufacturer warranty","_brand":"Ecommerce","_category":"Accessories"}'::jsonb
 ),
 (
   'LG 86" Acoustic Ceiling Tile (Box of 6)',
@@ -2862,7 +2862,7 @@ values
   false,
   false,
   null,
-  '["obryn-bass-trap-corner-set-pair","obryn-acoustic-ceiling-tile-20mm-box-of-8","panasonic-acoustic-wall-panel-box-of-10"]'::jsonb,
+  '["ecommerce-bass-trap-corner-set-pair","ecommerce-acoustic-ceiling-tile-20mm-box-of-8","panasonic-acoustic-wall-panel-box-of-10"]'::jsonb,
   '{"Material":"Polyester acoustic felt","Thickness":"50 mm","NRC Rating":"0.70","Size":"1200 x 600 mm","Fire Rating":"Class B1","Mounting":"Suspended grid","Warranty":"1 year manufacturer warranty","_brand":"LG","_category":"Acoustic"}'::jsonb
 ),
 (
@@ -2882,7 +2882,7 @@ values
   false,
   false,
   null,
-  '["lg-86-acoustic-ceiling-tile-box-of-6","obryn-bass-trap-corner-set-pair","obryn-acoustic-ceiling-tile-20mm-box-of-8"]'::jsonb,
+  '["lg-86-acoustic-ceiling-tile-box-of-6","ecommerce-bass-trap-corner-set-pair","ecommerce-acoustic-ceiling-tile-20mm-box-of-8"]'::jsonb,
   '{"Material":"Glass wool faced board","Thickness":"75 mm","NRC Rating":"0.90","Size":"1220 x 610 mm","Fire Rating":"Class 1","Mounting":"Adhesive or screw fix","Warranty":"1 year manufacturer warranty","_brand":"Samsung","_category":"Acoustic"}'::jsonb
 ),
 (
@@ -2902,18 +2902,18 @@ values
   false,
   false,
   null,
-  '["samsung-60-cm-acoustic-panel-box-of-8","lg-86-acoustic-ceiling-tile-box-of-6","obryn-bass-trap-corner-set-pair"]'::jsonb,
+  '["samsung-60-cm-acoustic-panel-box-of-8","lg-86-acoustic-ceiling-tile-box-of-6","ecommerce-bass-trap-corner-set-pair"]'::jsonb,
   '{"Material":"Mineral fibre board","Thickness":"25 mm","NRC Rating":"0.45","Size":"600 x 600 mm","Fire Rating":"Class A","Mounting":"Suspended grid","Warranty":"1 year manufacturer warranty","_brand":"Panasonic","_category":"Acoustic"}'::jsonb
 ),
 (
-  'Obryn Custom Podium for Lectern',
-  'custom-obryn-custom-podium-for-lectern',
+  'Ecommerce Custom Podium for Lectern',
+  'custom-ecommerce-custom-podium-for-lectern',
   'Podium',
   'Custom',
   44000,
   54000,
-  'https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled',
-  '["https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/f/f4/Bush_at_podium_at_renewable_energy_conference.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Paris_06_-_St_Sulpice_pulpit_01.jpg/1280px-Paris_06_-_St_Sulpice_pulpit_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg/250px-Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
+  'https://placehold.co/1000x1000/f8fafc/334155?text=Ecommerce%20Custom%20Podium%20for%20Lectern',
+  '["https://placehold.co/1000x1000/f8fafc/334155?text=Ecommerce%20Custom%20Podium%20for%20Lectern","https://placehold.co/1000x1000/f8fafc/334155?text=Custom%20%E2%80%94%20front","https://placehold.co/1000x1000/f8fafc/334155?text=Custom%20%E2%80%94%20angled","https://placehold.co/1000x1000/f8fafc/334155?text=Custom%20%E2%80%94%20in%20the%20box"]'::jsonb,
   'Custom lectern, made to order in the finish that suits the room. Ships across India with installation available on larger equipment.',
   'Made to order',
   4.4,
@@ -2922,18 +2922,18 @@ values
   false,
   false,
   null,
-  '["acrylic-obryn-acrylic-podium-stand"]'::jsonb,
+  '["acrylic-ecommerce-acrylic-podium-stand"]'::jsonb,
   '{"Material":"Solid wood, natural finish","Dimensions":"700 x 500 x 1100 mm","Finish":"Dark walnut stain","Cable Management":"Under-table tray","Assembly":"Flat-pack, tool included","Warranty":"12 months manufacturing warranty","_brand":"Custom","_category":"Podium"}'::jsonb
 ),
 (
-  'Obryn Wooden Podium Stand',
-  'wooden-obryn-wooden-podium-stand',
+  'Ecommerce Wooden Podium Stand',
+  'wooden-ecommerce-wooden-podium-stand',
   'Podium',
   'Wooden',
   70000,
   88000,
-  'https://upload.wikimedia.org/wikipedia/commons/8/8d/A_low-angle%2C_medium_shot_features_Thomas_Zurbuchen_standing_at_a_wooden_podium%2C_smiling_as_he_looks_toward_an_audience.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled',
-  '["https://upload.wikimedia.org/wikipedia/commons/8/8d/A_low-angle%2C_medium_shot_features_Thomas_Zurbuchen_standing_at_a_wooden_podium%2C_smiling_as_he_looks_toward_an_audience.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/7/79/Alexander_Moiseev_stands_at_a_wooden_podium_labeled_%22National_Academy_of_Sciences%2C%22_delivering_a_presentation_to_a_seated_audience.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/a/a4/A_man_in_a_dark_suit_and_red_tie_speaks_at_a_wooden_podium_during_a_luncheon_in_a_room_with_light_stone_walls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"]'::jsonb,
+  'https://placehold.co/1000x1000/fefce8/a16207?text=Ecommerce%20Wooden%20Podium%20Stand',
+  '["https://placehold.co/1000x1000/fefce8/a16207?text=Ecommerce%20Wooden%20Podium%20Stand","https://placehold.co/1000x1000/fefce8/a16207?text=Wooden%20%E2%80%94%20front","https://placehold.co/1000x1000/fefce8/a16207?text=Wooden%20%E2%80%94%20angled","https://placehold.co/1000x1000/fefce8/a16207?text=Wooden%20%E2%80%94%20in%20the%20box"]'::jsonb,
   'Wooden lectern, made to order in the finish that suits the room. In stock and ready to dispatch.',
   '',
   4.5,
@@ -2942,18 +2942,18 @@ values
   false,
   false,
   null,
-  '["custom-obryn-podium-with-built-in-mic"]'::jsonb,
+  '["custom-ecommerce-podium-with-built-in-mic"]'::jsonb,
   '{"Material":"Cast acrylic","Dimensions":"500 x 400 x 1050 mm","Finish":"Clear polished acrylic","Cable Management":"None","Assembly":"Assembled, ready to use","Warranty":"12 months manufacturing warranty","_brand":"Wooden","_category":"Podium"}'::jsonb
 ),
 (
-  'Obryn Acrylic Podium Stand',
-  'acrylic-obryn-acrylic-podium-stand',
+  'Ecommerce Acrylic Podium Stand',
+  'acrylic-ecommerce-acrylic-podium-stand',
   'Podium',
   'Acrylic',
   25000,
   32000,
-  'https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled',
-  '["https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/f/f4/Bush_at_podium_at_renewable_energy_conference.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Paris_06_-_St_Sulpice_pulpit_01.jpg/1280px-Paris_06_-_St_Sulpice_pulpit_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg/250px-Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
+  'https://placehold.co/1000x1000/eff6ff/1d4ed8?text=Ecommerce%20Acrylic%20Podium%20Stand',
+  '["https://placehold.co/1000x1000/eff6ff/1d4ed8?text=Ecommerce%20Acrylic%20Podium%20Stand","https://placehold.co/1000x1000/eff6ff/1d4ed8?text=Acrylic%20%E2%80%94%20front","https://placehold.co/1000x1000/eff6ff/1d4ed8?text=Acrylic%20%E2%80%94%20angled","https://placehold.co/1000x1000/eff6ff/1d4ed8?text=Acrylic%20%E2%80%94%20in%20the%20box"]'::jsonb,
   'Acrylic lectern, made to order in the finish that suits the room. Supplied with a one-year manufacturer warranty and backed by our own support team.',
   '',
   4.2,
@@ -2962,19 +2962,19 @@ values
   false,
   false,
   null,
-  '["custom-obryn-custom-podium-for-lectern","wooden-obryn-mobile-lectern-stand","custom-obryn-podium-with-built-in-mic"]'::jsonb,
+  '["custom-ecommerce-custom-podium-for-lectern","wooden-ecommerce-mobile-lectern-stand","custom-ecommerce-podium-with-built-in-mic"]'::jsonb,
   '{"Material":"Solid wood with veneer","Dimensions":"600 x 450 x 1100 mm","Finish":"Natural walnut","Cable Management":"Rear cable channel","Assembly":"Flat-pack, tool included","Warranty":"12 months manufacturing warranty","_brand":"Acrylic","_category":"Podium"}'::jsonb
 ),
 (
-  'Obryn Acoustic Ceiling Tile 20mm (Box of 8)',
-  'obryn-acoustic-ceiling-tile-20mm-box-of-8',
+  'Ecommerce Acoustic Ceiling Tile 20mm (Box of 8)',
+  'ecommerce-acoustic-ceiling-tile-20mm-box-of-8',
   'Acoustic',
-  'Obryn',
+  'Ecommerce',
   7500,
   9000,
   'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Church_Army_chapel_012.jpg/1280px-Church_Army_chapel_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail',
   '["https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Church_Army_chapel_012.jpg/1280px-Church_Army_chapel_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://upload.wikimedia.org/wikipedia/commons/3/39/Grand-State.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/5/5d/LakeAndState-RedLine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Union_Pacific_Harriman_Dispatch_Center.jpg/1280px-Union_Pacific_Harriman_Dispatch_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
-  'Obryn acoustic treatment to cut echo and reverberation in a hard-furnished room. Ships across India with installation available on larger equipment.',
+  'Ecommerce acoustic treatment to cut echo and reverberation in a hard-furnished room. Ships across India with installation available on larger equipment.',
   '',
   4.2,
   39,
@@ -2983,18 +2983,18 @@ values
   false,
   null,
   '["samsung-60-cm-acoustic-panel-box-of-8"]'::jsonb,
-  '{"Material":"Polyester acoustic felt","Thickness":"50 mm","NRC Rating":"0.70","Size":"1200 x 600 mm","Fire Rating":"Class B1","Mounting":"Suspended grid","Warranty":"1 year manufacturer warranty","_brand":"Obryn","_category":"Acoustic"}'::jsonb
+  '{"Material":"Polyester acoustic felt","Thickness":"50 mm","NRC Rating":"0.70","Size":"1200 x 600 mm","Fire Rating":"Class B1","Mounting":"Suspended grid","Warranty":"1 year manufacturer warranty","_brand":"Ecommerce","_category":"Acoustic"}'::jsonb
 ),
 (
-  'Obryn Bass Trap Corner Set (Pair)',
-  'obryn-bass-trap-corner-set-pair',
+  'Ecommerce Bass Trap Corner Set (Pair)',
+  'ecommerce-bass-trap-corner-set-pair',
   'Acoustic',
-  'Obryn',
+  'Ecommerce',
   18000,
   21000,
   'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Church_Army_chapel_012.jpg/1280px-Church_Army_chapel_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail',
   '["https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Church_Army_chapel_012.jpg/1280px-Church_Army_chapel_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://upload.wikimedia.org/wikipedia/commons/3/39/Grand-State.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/5/5d/LakeAndState-RedLine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Union_Pacific_Harriman_Dispatch_Center.jpg/1280px-Union_Pacific_Harriman_Dispatch_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
-  'Obryn acoustic treatment to cut echo and reverberation in a hard-furnished room. In stock and ready to dispatch.',
+  'Ecommerce acoustic treatment to cut echo and reverberation in a hard-furnished room. In stock and ready to dispatch.',
   'New',
   4.4,
   28,
@@ -3003,17 +3003,17 @@ values
   false,
   null,
   '["panasonic-acoustic-wall-panel-box-of-10"]'::jsonb,
-  '{"Material":"Glass wool faced board","Thickness":"75 mm","NRC Rating":"0.90","Size":"1220 x 610 mm","Fire Rating":"Class 1","Mounting":"Adhesive or screw fix","Warranty":"1 year manufacturer warranty","_brand":"Obryn","_category":"Acoustic"}'::jsonb
+  '{"Material":"Glass wool faced board","Thickness":"75 mm","NRC Rating":"0.90","Size":"1220 x 610 mm","Fire Rating":"Class 1","Mounting":"Adhesive or screw fix","Warranty":"1 year manufacturer warranty","_brand":"Ecommerce","_category":"Acoustic"}'::jsonb
 ),
 (
-  'Obryn Podium with Built-in Mic',
-  'custom-obryn-podium-with-built-in-mic',
+  'Ecommerce Podium with Built-in Mic',
+  'custom-ecommerce-podium-with-built-in-mic',
   'Podium',
   'Custom',
   70000,
   85000,
-  'https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled',
-  '["https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/f/f4/Bush_at_podium_at_renewable_energy_conference.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Paris_06_-_St_Sulpice_pulpit_01.jpg/1280px-Paris_06_-_St_Sulpice_pulpit_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg/250px-Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
+  'https://placehold.co/1000x1000/f8fafc/334155?text=Ecommerce%20Podium%20with%20Built-in%20Mic',
+  '["https://placehold.co/1000x1000/f8fafc/334155?text=Ecommerce%20Podium%20with%20Built-in%20Mic","https://placehold.co/1000x1000/f8fafc/334155?text=Custom%20%E2%80%94%20front","https://placehold.co/1000x1000/f8fafc/334155?text=Custom%20%E2%80%94%20angled","https://placehold.co/1000x1000/f8fafc/334155?text=Custom%20%E2%80%94%20in%20the%20box"]'::jsonb,
   'Custom lectern, made to order in the finish that suits the room. Supplied with a one-year manufacturer warranty and backed by our own support team.',
   'Made to order',
   4.5,
@@ -3022,18 +3022,18 @@ values
   false,
   false,
   null,
-  '["wooden-obryn-wooden-podium-stand"]'::jsonb,
+  '["wooden-ecommerce-wooden-podium-stand"]'::jsonb,
   '{"Material":"Solid wood with veneer","Dimensions":"600 x 450 x 1100 mm","Finish":"Natural walnut","Cable Management":"Rear cable channel","Assembly":"Assembled, ready to use","Warranty":"12 months manufacturing warranty","_brand":"Custom","_category":"Podium"}'::jsonb
 ),
 (
-  'Obryn Mobile Lectern Stand',
-  'wooden-obryn-mobile-lectern-stand',
+  'Ecommerce Mobile Lectern Stand',
+  'wooden-ecommerce-mobile-lectern-stand',
   'Podium',
   'Wooden',
   9300,
   12000,
-  'https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled',
-  '["https://upload.wikimedia.org/wikipedia/commons/8/89/Dais_cotinifolia00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://upload.wikimedia.org/wikipedia/commons/f/f4/Bush_at_podium_at_renewable_energy_conference.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Paris_06_-_St_Sulpice_pulpit_01.jpg/1280px-Paris_06_-_St_Sulpice_pulpit_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg/250px-Dais_d%27autel_%C3%A0_fleur_de_lis_et_ostensoire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"]'::jsonb,
+  'https://placehold.co/1000x1000/fefce8/a16207?text=Ecommerce%20Mobile%20Lectern%20Stand',
+  '["https://placehold.co/1000x1000/fefce8/a16207?text=Ecommerce%20Mobile%20Lectern%20Stand","https://placehold.co/1000x1000/fefce8/a16207?text=Wooden%20%E2%80%94%20front","https://placehold.co/1000x1000/fefce8/a16207?text=Wooden%20%E2%80%94%20angled","https://placehold.co/1000x1000/fefce8/a16207?text=Wooden%20%E2%80%94%20in%20the%20box"]'::jsonb,
   'Wooden lectern, made to order in the finish that suits the room. Ships across India with installation available on larger equipment.',
   '',
   4.3,
@@ -3042,7 +3042,7 @@ values
   false,
   false,
   null,
-  '["acrylic-obryn-acrylic-podium-stand"]'::jsonb,
+  '["acrylic-ecommerce-acrylic-podium-stand"]'::jsonb,
   '{"Material":"Solid wood, natural finish","Dimensions":"700 x 500 x 1100 mm","Finish":"Dark walnut stain","Cable Management":"Under-table tray","Assembly":"Flat-pack, tool included","Warranty":"12 months manufacturing warranty","_brand":"Wooden","_category":"Podium"}'::jsonb
 );
 

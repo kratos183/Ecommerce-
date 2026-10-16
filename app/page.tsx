@@ -234,7 +234,7 @@ export default async function Home() {
           <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
             <ProductRail
               title="New arrivals"
-              subtitle="Just added to the Obryn catalogue."
+              subtitle="Just added to the Ecommerce catalogue."
               href="/product-page"
               products={data.newArrivals}
               icon={
@@ -246,12 +246,12 @@ export default async function Home() {
           </section>
         ) : null}
 
-        {/* ═══════ WHY OBRYN ═══════ */}
+        {/* ═══════ WHY ECOMMERCE ═══════ */}
         <section className="border-y border-gray-200 bg-white py-14">
           <div className="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-orange-700">
-                Why Obryn
+                Why Ecommerce
               </p>
               <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                 We install what we sell

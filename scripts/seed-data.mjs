@@ -3,7 +3,7 @@
  *
  * Deliberately uses the real manufacturer brands listed in `lib/catalog.ts`
  * BRAND_GRID — the same list the Navbar mega menu filters by. A storefront whose
- * seed says "Obryn" everywhere but whose navbar offers "Samsung" as a filter is
+ * seed says "Ecommerce" everywhere but whose navbar offers "Samsung" as a filter is
  * internally inconsistent, and the filters return nothing.
  *
  * `scripts/build-seed.mjs` reads this and emits `supabase/seed.sql`.
@@ -89,7 +89,7 @@ export const BRAND_COLOUR = {
   AMD: "fdf2f8/be185d",
   Panasonic: "eff6ff/1e40af",
   Microsoft: "f8fafc/334155",
-  Obryn: "fff7ed/c2410c",
+  Ecommerce: "fff7ed/c2410c",
   Cables: "f8fafc/475569",
   Mounts: "f1f5f9/0f172a",
   Stands: "fdf4ff/86198f",
@@ -268,19 +268,19 @@ export const CATALOGUE = [
   { name: "Adapters 120 W GaN Laptop Charger", brand: "Adapters", category: "Accessories", tier: "mid", rating: 4.5, reviews: 534 },
   { name: "Adapters USB-C to HDMI Adapter 4K", brand: "Adapters", category: "Accessories", tier: "budget", rating: 4.2, reviews: 743 },
   { name: "Adapters USB-A to USB-C OTG Adapter", brand: "Adapters", category: "Accessories", tier: "budget", rating: 4.1, reviews: 987 },
-  { name: "Obryn Wireless Keyboard & Mouse Combo", brand: "Obryn", category: "Accessories", tier: "mid", rating: 4.4, reviews: 693, badge: "Popular" },
-  { name: "Obryn Laptop Sleeve 14\"", brand: "Obryn", category: "Accessories", tier: "budget", rating: 4.5, reviews: 288 },
-  { name: "Obryn Laptop Sleeve 16\"", brand: "Obryn", category: "Accessories", tier: "budget", rating: 4.4, reviews: 176 },
+  { name: "Ecommerce Wireless Keyboard & Mouse Combo", brand: "Ecommerce", category: "Accessories", tier: "mid", rating: 4.4, reviews: 693, badge: "Popular" },
+  { name: "Ecommerce Laptop Sleeve 14\"", brand: "Ecommerce", category: "Accessories", tier: "budget", rating: 4.5, reviews: 288 },
+  { name: "Ecommerce Laptop Sleeve 16\"", brand: "Ecommerce", category: "Accessories", tier: "budget", rating: 4.4, reviews: 176 },
 
   /* ═══ ACOUSTIC & PODIUM ════════════════════════════════════════════════ */
   { name: 'LG 86" Acoustic Ceiling Tile (Box of 6)', brand: "LG", category: "Acoustic", tier: "mid", rating: 4.3, reviews: 87 },
   { name: "Samsung 60 cm Acoustic Panel (Box of 8)", brand: "Samsung", category: "Acoustic", tier: "mid", rating: 4.2, reviews: 64 },
   { name: "Panasonic Acoustic Wall Panel (Box of 10)", brand: "Panasonic", category: "Acoustic", tier: "mid", rating: 4.1, reviews: 52 },
-  { name: "Obryn Custom Podium for Lectern", brand: "Custom", category: "Podium", tier: "premium", rating: 4.4, reviews: 41, badge: "Made to order" },
-  { name: "Obryn Wooden Podium Stand", brand: "Wooden", category: "Podium", tier: "premium", rating: 4.5, reviews: 68 },
-  { name: "Obryn Acrylic Podium Stand", brand: "Acrylic", category: "Podium", tier: "mid", rating: 4.2, reviews: 57 },
-  { name: 'Obryn Acoustic Ceiling Tile 20mm (Box of 8)', brand: "Obryn", category: "Acoustic", tier: "budget", rating: 4.2, reviews: 39 },
-  { name: "Obryn Bass Trap Corner Set (Pair)", brand: "Obryn", category: "Acoustic", tier: "mid", rating: 4.4, reviews: 28, badge: "New" },
-  { name: "Obryn Podium with Built-in Mic", brand: "Custom", category: "Podium", tier: "premium", rating: 4.5, reviews: 33, badge: "Made to order" },
-  { name: "Obryn Mobile Lectern Stand", brand: "Wooden", category: "Podium", tier: "budget", rating: 4.3, reviews: 46 },
+  { name: "Ecommerce Custom Podium for Lectern", brand: "Custom", category: "Podium", tier: "premium", rating: 4.4, reviews: 41, badge: "Made to order" },
+  { name: "Ecommerce Wooden Podium Stand", brand: "Wooden", category: "Podium", tier: "premium", rating: 4.5, reviews: 68 },
+  { name: "Ecommerce Acrylic Podium Stand", brand: "Acrylic", category: "Podium", tier: "mid", rating: 4.2, reviews: 57 },
+  { name: 'Ecommerce Acoustic Ceiling Tile 20mm (Box of 8)', brand: "Ecommerce", category: "Acoustic", tier: "budget", rating: 4.2, reviews: 39 },
+  { name: "Ecommerce Bass Trap Corner Set (Pair)", brand: "Ecommerce", category: "Acoustic", tier: "mid", rating: 4.4, reviews: 28, badge: "New" },
+  { name: "Ecommerce Podium with Built-in Mic", brand: "Custom", category: "Podium", tier: "premium", rating: 4.5, reviews: 33, badge: "Made to order" },
+  { name: "Ecommerce Mobile Lectern Stand", brand: "Wooden", category: "Podium", tier: "budget", rating: 4.3, reviews: 46 },
 ];

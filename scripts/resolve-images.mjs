@@ -50,7 +50,7 @@ const IMAGES_PER_PRODUCT = 4;
 
 /** Wikimedia and the aggregators ask for a descriptive User-Agent. */
 const UA =
-  "ObrynCatalogueSeeder/1.0 (portfolio catalogue; contact chandansaricreative@gmail.com)";
+  "EcommerceCatalogueSeeder/1.0 (portfolio catalogue; contact chandansaricreative@gmail.com)";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 

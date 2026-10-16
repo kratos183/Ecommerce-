@@ -1,12 +1,12 @@
 /**
  * The static half of the knowledge base.
  *
- * These are the documents that describe *how Obryn works* — shipping, returns,
+ * These are the documents that describe *how Ecommerce works* — shipping, returns,
  * warranty, payment, order tracking. They are code rather than rows in a table
  * because they are copy decisions, and because `SITE` already holds the contact
  * details they need to stay consistent with.
  *
- * Obryn is a general online store: phones, laptops, tablets, displays, audio,
+ * Ecommerce is a general online store: phones, laptops, tablets, displays, audio,
  * cameras and accessories. The documents below are therefore written for a normal
  * online shopper. The few genuinely specialist ones (choosing a display, online
  * teaching, signage) are kept because those products are still in the catalogue.
@@ -104,7 +104,7 @@ Support is reached on phone at ${SITE.phoneDisplay}, on WhatsApp, or by email at
 
 Payments are processed through Razorpay. The customer can pay by UPI, Visa, Mastercard, RuPay card, net banking, or cash on delivery where available.
 
-Online payment is secured end to end by Razorpay. Card details are never handled by Obryn.
+Online payment is secured end to end by Razorpay. Card details are never handled by Ecommerce.
 
 Prices are inclusive of GST for a registered business. A GST invoice is raised against the order.
 
@@ -166,7 +166,7 @@ The assistant should route the customer to the right one rather than trying to a
     metadata: { topic: "development" },
     content: `Development and web services
 
-Alongside hardware, Obryn builds software.
+Alongside hardware, Ecommerce builds software.
 
 App development covers native Android, native iOS and cross-platform applications, built for education businesses in particular.
 
@@ -273,10 +273,10 @@ Payment method is shown on the order. Online payments are Razorpay; some orders 
   {
     docId: "faq-contact",
     source: "faq",
-    title: "How to reach Obryn",
+    title: "How to reach Ecommerce",
     url: "/#support",
     metadata: { topic: "contact" },
-    content: `How to reach Obryn
+    content: `How to reach Ecommerce
 
 Phone: ${SITE.phoneDisplay}
 WhatsApp: the same number

@@ -179,7 +179,7 @@ export default function Navbar() {
             </div>
             {/* The wordmark carries the brand; hiding it below sm left a lone "O". */}
             <span className="hidden text-lg font-extrabold tracking-tight text-gray-900 xs:block sm:text-xl">
-              OBRYN
+              ECOMMERCE
             </span>
           </Link>
 

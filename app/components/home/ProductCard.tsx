@@ -166,7 +166,7 @@ export default function ProductCard({
 
           <a
             href={whatsappLink(
-              `Hi Obryn, I'd like to order: ${product.name} (${inr(product.price)})`
+              `Hi Ecommerce, I'd like to order: ${product.name} (${inr(product.price)})`
             )}
             target="_blank"
             rel="noopener noreferrer"

@@ -1,5 +1,5 @@
 -- ═══════════════════════════════════════════════════════════════════════════
---  Obryn — DELETE THE CATALOGUE
+--  Ecommerce — DELETE THE CATALOGUE
 -- ═══════════════════════════════════════════════════════════════════════════
 --
 --  Use this when you want an empty product catalogue without touching anything

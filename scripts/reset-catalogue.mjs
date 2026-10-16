@@ -77,7 +77,7 @@ const before = {
   favorites: await count("favorites"),
 };
 
-console.log("\n  Obryn — delete the catalogue\n");
+console.log("\n  Ecommerce — delete the catalogue\n");
 const row = (label, value, note = "") =>
   console.log(`  ${label.padEnd(13)}${String(value).padStart(5)}${note ? `   ${note}` : ""}`);
 
