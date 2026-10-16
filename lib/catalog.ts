@@ -4,13 +4,14 @@
  * Both the Navbar mega menu and the Admin Dashboard product form render brands from
  * BRAND_GRID, so a brand added here shows up in both places at once.
  *
- * `Ecommerce` leads every list as the house brand. The third-party names are the
- * manufacturers actually stocked — Apple, Samsung, Canon, Shure and so on — so the
- * brand filter is doing real work rather than filtering on our own name.
+ * These are the manufacturers actually stocked, so the brand filter does real
+ * work. Our own name is deliberately NOT listed: the house-branded lines
+ * (accessories, podiums, acoustic tiles) are reachable through their category,
+ * and offering "Ecommerce" as a filter returned nothing for the twelve
+ * categories that carry no house stock.
  *
- * CAVEAT: a brand listed here with no matching stock produces a filter that returns
- * nothing. `npm run test:catalogue` reports which of these have no products so the
- * list cannot quietly drift; remove any you do not carry.
+ * CAVEAT: a brand listed here with no matching stock still produces a filter
+ * that returns nothing. Remove any you do not carry.
  *
  * BRAND NAMES MUST MATCH `products.brand` EXACTLY. PostgREST `.eq()` is
  * case-sensitive, so "SONY" here would return nothing for "Sony" stock. The seed
@@ -21,7 +22,6 @@ export type BrandGrid = Record<string, string[]>;
 
 export const BRAND_GRID: BrandGrid = {
   Phone: [
-    "Ecommerce",
     "Apple",
     "Samsung",
     "Xiaomi",
@@ -34,12 +34,11 @@ export const BRAND_GRID: BrandGrid = {
     "Motorola",
     "Nokia",
   ],
-  Laptop: ["Ecommerce", "Apple", "HP", "Lenovo", "Dell", "Asus"],
-  Airbud: ["Ecommerce", "boAt", "Samsung", "Apple", "Sony", "JBL"],
-  Speaker: ["Ecommerce", "JBL", "Sony", "Bose", "LG"],
-  Light: ["Ecommerce", "Philips", "Wipro", "Syska", "Godrej"],
+  Laptop: ["Apple", "HP", "Lenovo", "Dell", "Asus"],
+  Airbud: ["boAt", "Samsung", "Apple", "Sony", "JBL"],
+  Speaker: ["JBL", "Sony", "Bose", "LG"],
+  Light: ["Philips", "Wipro", "Syska", "Godrej"],
   "Digital Board": [
-    "Ecommerce",
     "Apple",
     "Samsung",
     "HP",
@@ -52,15 +51,15 @@ export const BRAND_GRID: BrandGrid = {
     "iSlate",
     "Evota",
   ],
-  Tripod: ["Ecommerce", "DIGITEK", "Tygot", "Syvo", "NAFA", "ULANZI"],
-  Camera: ["Ecommerce", "Canon", "Sony", "Nikon", "Fujifilm"],
-  Mic: ["Ecommerce", "Shure", "Blue Yeti", "Rode", "Audio-Technica"],
-  OPS: ["Ecommerce", "Evota", "Intel", "AMD"],
-  Monitor: ["Ecommerce", "LG", "Samsung", "ViewSonic", "HP", "Dell"],
-  Acoustic: ["Ecommerce", "LG", "Samsung", "Panasonic"],
+  Tripod: ["DIGITEK", "Tygot", "Syvo", "NAFA", "ULANZI"],
+  Camera: ["Canon", "Sony", "Nikon", "Fujifilm"],
+  Mic: ["Shure", "Blue Yeti", "Rode", "Audio-Technica"],
+  OPS: ["Evota", "Intel", "AMD"],
+  Monitor: ["LG", "Samsung", "ViewSonic", "HP", "Dell"],
+  Acoustic: ["LG", "Samsung", "Panasonic"],
   Podium: ["Custom", "Wooden", "Acrylic"],
-  Accessories: ["Ecommerce", "Cables", "Mounts", "Stands", "Adapters"],
-  "Tablet / iPad": ["Ecommerce", "Apple", "Samsung", "Lenovo", "Microsoft"],
+  Accessories: ["Cables", "Mounts", "Stands", "Adapters"],
+  "Tablet / iPad": ["Apple", "Samsung", "Lenovo", "Microsoft"],
 };
 
 /**
