@@ -1,4 +1,4 @@
-# Obryn — Electronics Storefront with a Grounded AI Assistant
+# Ecommerce — Electronics Storefront with a Grounded AI Assistant
 
 A production-shaped e-commerce platform for consumer electronics, built with
 Next.js 16 and Supabase Postgres. Amazon-style catalogue browsing, Razorpay and
@@ -67,7 +67,7 @@ answers catalogue questions and looks up the signed-in customer's real orders.
 | Embeddings | `@huggingface/transformers`, `Xenova/bge-small-en-v1.5` | Runs **locally**. No embedding API, no cost, no data leaves the machine |
 | Generation | Groq (`qwen/qwen3.8-27b`) | Free tier, ~170 ms for a grounded answer |
 | Payments | Razorpay | UPI, cards, netbanking |
-| Auth | `jsonwebtoken` + `bcryptjs` | Hand-rolled, deliberately — see [Security](#security) |
+| Auth | `jsonwebtoken` + `bcryptjs` | Hand-rolled, deliberately — see [Security](#getting-started) |
 | Media | Cloudinary | Direct browser uploads for product images |
 
 **Scale:** 84 TypeScript files, ~22,800 lines. 20 API routes, 6 database tables,
@@ -109,8 +109,8 @@ fused with **Reciprocal Rank Fusion** inside a single SQL function:
 
 ```sql
 -- match_knowledge() in supabase/rag.sql
-  +-> vector search   (pgvector cosine similarity)
-  +-> full-text search (tsvector @@ websearch_to_tsquery)
+  +-> vector search     (pgvector cosine similarity)
+  +-> full-text search  (tsvector @@ websearch_to_tsquery)
   -> RRF fusion -> top chunks
 ```
 
@@ -197,7 +197,7 @@ You need Node 20.9+ (24 recommended) and a Supabase project.
 git clone https://github.com/kratos183/Ecommerce-.git
 cd Ecommerce-
 npm install
-cp .env.example .env.local     # then fill it in — see below
+cp .env.example .env.local     # then fill it in
 ```
 
 **Required environment variables:**
@@ -255,7 +255,7 @@ app/
   product/[slug]/             product detail + 4-image gallery
   product-page/               catalogue with filters and pagination
   checkout/                   address → review → pay
-  user-dashboard/             orders, wishlist, cart, "Ask Obryn"
+  user-dashboard/             orders, wishlist, cart, "Ask the assistant"
   Admin-Dashboard/            staff console
   api/                        20 route handlers
   components/home/            carousel, rails, category showcase, search
@@ -300,9 +300,9 @@ npm run test
 | `test:catalogue` | The generated seed is *semantically* sound, not just valid SQL: every category has four-plus products, no dangling bundle references, `mrp ≥ price`, and every image host is allowed in `next.config.ts` |
 | `test:search` | The search and category-fallback rules behave as documented, including that "samsung" offers the Samsung brand and that a longer word sharing a prefix does not |
 
-The catalogue suite catches a whole class of bug a syntax check cannot. A
-slug function that drifts between two files produces no error at all — it just
-means every product silently loses its images.
+The catalogue suite catches a whole class of bug a syntax check cannot. A slug
+function that drifts between two files produces no error at all — it just means
+every product silently loses its images.
 
 ---
 
@@ -331,6 +331,9 @@ A portfolio project should say what it does not do.
   a similar product. Commons is a volunteer encyclopedia with thorough coverage
   of mass-market phones and effectively none of the niche hardware here.
   Replacing them through Admin Dashboard → Products is the intended workflow.
+- **The house brand is sparse.** `Ecommerce` appears in the navbar brand filter
+  for every category, but only the accessories, podium and acoustic lines are
+  actually house-branded. Choosing "Ecommerce" under Phones returns nothing.
 - **The assistant is retrieval-only.** It has no tool use and cannot take an
   action. It answers and cites; it does not act.
 - **No test coverage in the browser.** The suites test logic and SQL against a
@@ -344,11 +347,10 @@ A portfolio project should say what it does not do.
 
 ## Contact
 
-**Chandan Sari Creative** — the business behind Obryn.
+Built by **Chandan Sari Creative**, Dhanbad, Jharkhand, India.
 
 - Phone / WhatsApp: +91 79924 30183
 - Email: chandansaricreative@gmail.com
-- Dhanbad, Jharkhand, India
 
 ---
 
