@@ -331,9 +331,11 @@ A portfolio project should say what it does not do.
   a similar product. Commons is a volunteer encyclopedia with thorough coverage
   of mass-market phones and effectively none of the niche hardware here.
   Replacing them through Admin Dashboard → Products is the intended workflow.
-- **The house brand is sparse.** `Ecommerce` appears in the navbar brand filter
-  for every category, but only the accessories, podium and acoustic lines are
-  actually house-branded. Choosing "Ecommerce" under Phones returns nothing.
+- **The house brand is not in the brand filter.** The navbar's brand grid lists
+  only real manufacturers, so the handful of house-branded products (accessories,
+  podiums, acoustic tiles) are reachable through their category rather than
+  through a brand filter. They do appear in the catalogue page's own brand
+  filter, which is built from the products actually in stock.
 - **The assistant is retrieval-only.** It has no tool use and cannot take an
   action. It answers and cites; it does not act.
 - **No test coverage in the browser.** The suites test logic and SQL against a
