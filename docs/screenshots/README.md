@@ -1,97 +1,62 @@
 # Screenshots
 
-Six screenshots of the live site, used in the main [README](../README.md) and
-shown to reviewers on GitHub.
+The captures used in the main [README](../README.md). A recruiter scrolling the
+repository sees these before they read a word of the prose, so they are worth
+getting right.
 
 **Live site:** https://ecommerce-eight-weld.vercel.app/
 
 ---
 
-## Where the files go
+## The eight files
 
-Drop them straight into this folder:
-
-```
-F:\notes\Web-development-roadmap\Beautiful-ui-Projects\E-commerce\my-app\docs\screenshots\
-```
-
----
-
-## Naming — rename your files to exactly these
-
-The `01-` … `06-` prefix is what fixes the order they appear in the README.
-Numbering beats alphabetical, because `1-`, `2-` and `10-` sort as `1`, `10`, `2`.
-
-| # | Filename | Live URL to open | What to capture |
+| # | Filename | Live URL it came from | Shows |
 | --- | --- | --- | --- |
-| 1 | `01-homepage-hero.png` | `/` | The top of the homepage: hero carousel, search box, department strip |
-| 2 | `02-category-showcase.png` | `/` scrolled to "Shop by category" | The category rail and the product grids beside it |
-| 3 | `03-product-detail.png` | `/product/apple-iphone-15-128-gb` | A product page: the 4-image gallery, price block and the specification table |
-| 4 | `04-catalogue-filters.png` | `/product-page` | The catalogue with the **Brand** dropdown open and products behind it |
-| 5 | `05-checkout.png` | `/checkout` | Checkout with the two payment-method cards — Online payment and Cash on delivery |
-| 6 | `06-ai-assistant.png` | `/user-dashboard?tab=assistant` | The "Ask" assistant open in the customer dashboard, showing a grounded answer |
+| 1 | `01-homepage-hero.png` | `/` | Hero carousel, marketplace search, category nav |
+| 2 | `02-category-showcase.png` | `/` (scrolled) | The category rail beside the product grids |
+| 3 | `03-product-detail.png` | `/product/apple-iphone-15-128-gb` | 4-image gallery, price block, spec table |
+| 4 | `04-catalogue-filters.png` | `/product-page` | Brand dropdown open over the product grid |
+| 5 | `05-user-dashboard.png` | `/user-dashboard` | Account overview — orders, cart, wishlist, spend |
+| 6 | `06-checkout.png` | `/checkout` | The two payment-method cards |
+| 7 | `07-ai-assistant.png` | `/user-dashboard?tab=assistant` | The "Ask Ecommerce" panel with suggested questions |
+| 8 | `08-admin-dashboard.png` | `/Admin-Dashboard` | User management, roles and status |
 
-Full URLs, if you would rather click through:
+Full URLs:
 
 ```
 https://ecommerce-eight-weld.vercel.app/
 https://ecommerce-eight-weld.vercel.app/product-page
 https://ecommerce-eight-weld.vercel.app/product/apple-iphone-15-128-gb
 https://ecommerce-eight-weld.vercel.app/checkout
+https://ecommerce-eight-weld.vercel.app/user-dashboard
 https://ecommerce-eight-weld.vercel.app/user-dashboard?tab=assistant
+https://ecommerce-eight-weld.vercel.app/Admin-Dashboard
 ```
 
-All lowercase, hyphens not spaces, `.png` not `.jpg`.
+The `01-` … `08-` prefix fixes the display order. Numbering beats alphabetical,
+because `1-`, `2-` and `10-` sort as `1`, `10`, `2`.
 
 ---
 
-## How to capture them
+## If you recapture
 
 **Viewport: 1440 × 900.** Wide enough to show the desktop layout, which is the
 one worth showing a reviewer. A phone-width screenshot of a desktop-designed
 storefront reads as "unfinished" rather than "responsive".
 
-**Save the full image, not a screenshot of a screenshot.** Use your browser's
-"Save image as" on a full-page capture, or a tool like FireShot / GoFullPage.
-Aim for roughly 1400–1600px wide.
-
 **PNG, not JPG.** These are flat UI with text. JPG's artefacts around 12px labels
 are visible at that size, and the file is barely larger.
 
----
+**Sign in first for shots 5, 6, 7 and 8.** The dashboard and checkout redirect
+to `/login` when signed out, and the assistant needs a JWT cookie so it will not
+render in an incognito window.
 
-## Notes for each shot
+**For shot 6, select "Cash on delivery"** before capturing. It is the option a
+reviewer will not expect a store to offer, so it is worth showing deliberately.
 
-**1 — Homepage hero.** The carousel auto-advances, so wait for a slide showing a
-product rather than a gradient. Make sure the search box is visible — it is the
-first thing a reviewer looks for on a storefront.
-
-**2 — Category showcase.** Scroll so the left rail and at least two category
-grids are in frame. The rail sticks to the left of the grids, which is the
-layout worth demonstrating.
-
-**3 — Product detail.** Pick a product with a real photograph, not one of the
-five still showing a placeholder. `Apple iPhone 15 128 GB` has one, and its
-specification table is long enough to look like real data.
-
-The five still on a placeholder are the **Podium** line — Mobile Lectern Stand,
-Custom Podium, Wooden Podium, Acrylic Podium, and Podium with Built-in Mic.
-Avoid them in any shot.
-
-**4 — Catalogue with filters.** Open the **Brand** dropdown so the filter panel
-is visible, and make sure products are in the grid behind it. A screenshot of
-the filter bar alone, with no products, looks empty.
-
-**5 — Checkout.** You must be signed in — the checkout redirects to `/login`
-otherwise. Select **Cash on delivery** before capturing, because that is the
-option a reviewer will not expect a store to offer and it is worth showing
-explicitly. Include the order summary column with the totals.
-
-**6 — AI assistant.** Sign in, open `/user-dashboard`, and open the **Ask**
-tab. The assistant needs a JWT cookie, so it will not render from an incognito
-window. Ask it something with a grounded answer — *"what do you sell?"* or
-*"which product did I buy?"* — and wait for the reply so the answer and its
-citations are visible. A screenshot of an empty input box shows nothing.
+**Avoid the five Podium products** — Mobile Lectern Stand, Custom Podium,
+Wooden Podium, Acrylic Podium and Podium with Built-in Mic still show a labelled
+placeholder. They are the only ones left.
 
 ---
 
@@ -100,6 +65,6 @@ citations are visible. A screenshot of an empty input box shows nothing.
 These are screenshots of a real, working deployment, which is the whole point —
 a reviewer should be able to open the live site and see the same thing.
 
-If a screenshot would misrepresent the product, don't take it. The
-"Honest limitations" section of the main README covers what this project does
-not do, and that is a better way to earn trust than an omission.
+If a screenshot would misrepresent the product, don't take it. The "Honest
+limitations" section of the main README covers what this project does not do,
+and saying so is a better way to earn trust than an omission.

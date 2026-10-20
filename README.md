@@ -1,20 +1,54 @@
-# Ecommerce — Electronics Storefront with a Grounded AI Assistant
+<div align="center">
 
-A production-shaped e-commerce platform for consumer electronics, built with
-Next.js 16 and Supabase Postgres. Amazon-style catalogue browsing, Razorpay and
-cash-on-delivery checkout, and a retrieval-augmented assistant that answers
-questions about the catalogue **and the customer's own orders** — including
-"which product did I buy".
+# 🛒 Ecommerce — Electronics Storefront with a Grounded AI Assistant
 
-**Live demo → [ecommerce-eight-weld.vercel.app](https://ecommerce-eight-weld.vercel.app/)**
+**A production-shaped e-commerce platform built with Next.js 16 and Supabase Postgres.**
+Amazon-style catalogue browsing, Razorpay and cash-on-delivery checkout, and a
+retrieval-augmented assistant that answers questions about the catalogue **and
+the customer's own orders** — including *"which product did I buy"*.
 
-![Homepage](docs/screenshots/01-homepage-hero.png)
+[![Live demo](https://img.shields.io/badge/Live%20Demo-ecommerce--eight--weld.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ecommerce-eight-weld.vercel.app/)
+
+</div>
+
+<div align="center">
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.3-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Supabase](https://img.shields.io/badge/Supabase-Postgres-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black)](https://supabase.com)
+[![pgvector](https://img.shields.io/badge/pgvector-Hybrid_Search-000000?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/pgvector/pgvector)
+[![Groq](https://img.shields.io/badge/Groq-LLM-F55036?style=for-the-badge&logo=groq&logoColor=white)](https://groq.com)
+[![Razorpay](https://img.shields.io/badge/Razorpay-%2B_COD-2B5CFF?style=for-the-badge&logo=razorpay&logoColor=white)](https://razorpay.com)
+[![Cloudinary](https://img.shields.io/badge/Cloudinary-Images-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)](https://cloudinary.com)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+
+</div>
 
 ---
 
-## Table of contents
+<div align="center">
 
-- [Screenshots](#screenshots)
+## Screenshots
+
+| | |
+| :---: | :---: |
+| <img src="docs/screenshots/01-homepage-hero.png" alt="Homepage" width="100%"> | <img src="docs/screenshots/02-category-showcase.png" alt="Category showcase" width="100%"> |
+| **Homepage** — hero carousel advertising real stock, marketplace search, and a category nav that scrolls horizontally | **Shop by category** — a sticky category rail beside four-up product grids, so every row is filled |
+| <img src="docs/screenshots/03-product-detail.png" alt="Product detail" width="100%"> | <img src="docs/screenshots/04-catalogue-filters.png" alt="Catalogue filters" width="100%"> |
+| **Product page** — four-image gallery, price block, and a full specification table | **Catalogue** — filter by category, brand and price, with the grid live behind the open panel |
+| <img src="docs/screenshots/05-user-dashboard.png" alt="User dashboard" width="100%"> | <img src="docs/screenshots/06-checkout.png" alt="Checkout" width="100%"> |
+| **Customer dashboard** — orders, cart, wishlist, addresses and spend at a glance | **Checkout** — online payment or cash on delivery, priced identically on the server |
+| <img src="docs/screenshots/07-ai-assistant.png" alt="AI assistant" width="100%"> | <img src="docs/screenshots/08-admin-dashboard.png" alt="Admin dashboard" width="100%"> |
+| **"Ask Ecommerce"** — grounded in the catalogue *and* in your own orders, with citations | **Admin console** — users and roles, product management, and staff-only access |
+
+</div>
+
+---
+
+## Contents
+
 - [What it does](#what-it-does)
 - [Tech stack](#tech-stack)
 - [The interesting parts](#the-interesting-parts)
@@ -34,19 +68,6 @@ questions about the catalogue **and the customer's own orders** — including
 
 ---
 
-## Screenshots
-
-| | |
-| --- | --- |
-| ![Category showcase](docs/screenshots/02-category-showcase.png) | ![Product detail](docs/screenshots/03-product-detail.png) |
-| **Shop by category** — a sticky category rail beside four-up product grids, so every row is filled | **Product page** — four-image gallery, price block and a full specification table |
-| ![Catalogue with filters](docs/screenshots/04-catalogue-filters.png) | ![Checkout](docs/screenshots/05-checkout.png) |
-| **Catalogue** — filter by category, brand and price, with the grid behind the open panel | **Checkout** — online payment or cash on delivery, priced identically on the server |
-| ![AI assistant](docs/screenshots/06-ai-assistant.png) | |
-| **"Ask" the assistant** — grounded in the catalogue and in your own orders, with citations | |
-
----
-
 ## What it does
 
 **Storefront.** An Amazon-shaped homepage: a hero carousel that advertises real
@@ -59,14 +80,14 @@ image URLs and a full specification block. Filtering by category, brand, price
 and free-text, with pagination.
 
 **Accounts.** Signup and sign-in with bcrypt-hashed passwords and JWT session
-cookies. Wishlist, cart, saved addresses, order history.
+cookies. Wishlist, cart, saved addresses, order history, and a spend summary.
 
 **Checkout.** Two payment paths — Razorpay (UPI, cards, netbanking) and cash on
 delivery — priced identically on the server, with Razorpay signature
 verification before an order is ever marked paid.
 
-**Admin console.** Staff-only, for users, products and orders. Administrators
-are deliberately *not* customers: they are redirected away from the customer
+**Admin console.** Staff-only, for users, roles and products. Administrators are
+deliberately *not* customers: they are redirected away from the customer
 dashboard and given no cart or wishlist.
 
 **AI assistant.** A retrieval-augmented chat in the customer dashboard that
@@ -79,6 +100,7 @@ answers catalogue questions and looks up the signed-in customer's real orders.
 | Layer | Choice | Why |
 | --- | --- | --- |
 | Framework | Next.js 16, App Router, React 19 | Server Components keep most of the page static — the homepage ships almost no client JS |
+| Language | TypeScript 5, `strict` | — |
 | Styling | Tailwind CSS v4 | CSS-first config, no `tailwind.config.js` |
 | Database | Supabase Postgres + PostgREST | Row-level security, and RPC into functions that are `SECURITY DEFINER` |
 | Vector search | pgvector (`vector(384)`) | Hybrid with Postgres full-text |
@@ -88,8 +110,8 @@ answers catalogue questions and looks up the signed-in customer's real orders.
 | Auth | `jsonwebtoken` + `bcryptjs` | Hand-rolled, deliberately — see [Security](#getting-started) |
 | Media | Cloudinary | Direct browser uploads for product images |
 
-**Scale:** 84 TypeScript files, ~22,800 lines. 20 API routes, 6 database tables,
-5 SQL files (~3,900 lines), 14 components.
+**Scale:** 89 files, ~26,700 lines. 20 API routes, 6 database tables, 5 SQL files
+(~3,900 lines), 14 components, 99 passing test assertions.
 
 ---
 
@@ -108,7 +130,7 @@ in two:
 That second decision is the important one. Embedding personal data means it sits
 in a vector store where a similarity search can surface one customer's order to
 another. Fetching it per-request makes that structurally impossible, and it also
-means "what did I buy" is answered from live data rather than a snapshot that
+means *"what did I buy"* is answered from live data rather than a snapshot that
 went stale the moment an order shipped.
 
 ```
@@ -273,7 +295,7 @@ app/
   product/[slug]/             product detail + 4-image gallery
   product-page/               catalogue with filters and pagination
   checkout/                   address → review → pay
-  user-dashboard/             orders, wishlist, cart, "Ask the assistant"
+  user-dashboard/             orders, wishlist, cart, "Ask Ecommerce"
   Admin-Dashboard/            staff console
   api/                        20 route handlers
   components/home/            carousel, rails, category showcase, search
@@ -286,6 +308,7 @@ lib/
   db.ts, supabase.ts          database access
 scripts/                      seed generation, image sourcing, test suites
 supabase/                     all SQL, applied through the SQL Editor
+docs/screenshots/             the captures above
 ```
 
 ---
