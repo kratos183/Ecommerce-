@@ -29,7 +29,7 @@ const SignupPage = () => {
       <div className="w-full max-w-md overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-xl">
         <div className="px-5 pb-5 pt-6 text-center sm:px-8 sm:pb-6 sm:pt-8">
           <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center mx-auto mb-4 text-white font-bold text-2xl shadow-lg shadow-orange-200">
-            M
+            E
           </div>
           <h2 className="text-2xl font-bold text-gray-900">Create Account</h2>
           <p className="text-sm text-gray-500 mt-2">Start your learning journey today</p>

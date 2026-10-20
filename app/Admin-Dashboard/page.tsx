@@ -944,7 +944,7 @@ const AdminDashboard = () => {
         <div className="h-16 flex items-center px-6 border-b border-slate-800 justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-orange-600 to-amber-500 flex items-center justify-center text-white font-black text-base shadow-lg shadow-orange-500/20">
-              O
+              E
             </div>
             {sidebarOpen && (
               <div>
