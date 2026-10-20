@@ -7,19 +7,39 @@ shown to reviewers on GitHub.
 
 ---
 
+## Where the files go
+
+Drop them straight into this folder:
+
+```
+F:\notes\Web-development-roadmap\Beautiful-ui-Projects\E-commerce\my-app\docs\screenshots\
+```
+
+---
+
 ## Naming — rename your files to exactly these
 
 The `01-` … `06-` prefix is what fixes the order they appear in the README.
 Numbering beats alphabetical, because `1-`, `2-` and `10-` sort as `1`, `10`, `2`.
 
-| # | Filename | What to capture |
-| --- | --- | --- |
-| 1 | `01-homepage-hero.png` | The top of the homepage: hero carousel, search box, department strip |
-| 2 | `02-category-showcase.png` | "Shop by category" and the left rail with the product grids |
-| 3 | `03-product-detail.png` | A product page: the 4-image gallery, price block and the specification table |
-| 4 | `04-catalogue-filters.png` | The catalogue page (`/product-page`) with the filter bar and product grid |
-| 5 | `05-checkout.png` | Checkout with the two payment-method cards — Online payment and Cash on delivery |
-| 6 | `06-ai-assistant.png` | The "Ask" assistant open in the customer dashboard, showing a grounded answer |
+| # | Filename | Live URL to open | What to capture |
+| --- | --- | --- | --- |
+| 1 | `01-homepage-hero.png` | `/` | The top of the homepage: hero carousel, search box, department strip |
+| 2 | `02-category-showcase.png` | `/` scrolled to "Shop by category" | The category rail and the product grids beside it |
+| 3 | `03-product-detail.png` | `/product/apple-iphone-15-128-gb` | A product page: the 4-image gallery, price block and the specification table |
+| 4 | `04-catalogue-filters.png` | `/product-page` | The catalogue with the **Brand** dropdown open and products behind it |
+| 5 | `05-checkout.png` | `/checkout` | Checkout with the two payment-method cards — Online payment and Cash on delivery |
+| 6 | `06-ai-assistant.png` | `/user-dashboard?tab=assistant` | The "Ask" assistant open in the customer dashboard, showing a grounded answer |
+
+Full URLs, if you would rather click through:
+
+```
+https://ecommerce-eight-weld.vercel.app/
+https://ecommerce-eight-weld.vercel.app/product-page
+https://ecommerce-eight-weld.vercel.app/product/apple-iphone-15-128-gb
+https://ecommerce-eight-weld.vercel.app/checkout
+https://ecommerce-eight-weld.vercel.app/user-dashboard?tab=assistant
+```
 
 All lowercase, hyphens not spaces, `.png` not `.jpg`.
 
@@ -53,6 +73,10 @@ layout worth demonstrating.
 **3 — Product detail.** Pick a product with a real photograph, not one of the
 five still showing a placeholder. `Apple iPhone 15 128 GB` has one, and its
 specification table is long enough to look like real data.
+
+The five still on a placeholder are the **Podium** line — Mobile Lectern Stand,
+Custom Podium, Wooden Podium, Acrylic Podium, and Podium with Built-in Mic.
+Avoid them in any shot.
 
 **4 — Catalogue with filters.** Open the **Brand** dropdown so the filter panel
 is visible, and make sure products are in the grid behind it. A screenshot of
