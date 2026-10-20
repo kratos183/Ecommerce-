@@ -6,10 +6,15 @@ cash-on-delivery checkout, and a retrieval-augmented assistant that answers
 questions about the catalogue **and the customer's own orders** — including
 "which product did I buy".
 
+**Live demo → [ecommerce-eight-weld.vercel.app](https://ecommerce-eight-weld.vercel.app/)**
+
+![Homepage](docs/screenshots/01-homepage-hero.png)
+
 ---
 
 ## Table of contents
 
+- [Screenshots](#screenshots)
 - [What it does](#what-it-does)
 - [Tech stack](#tech-stack)
 - [The interesting parts](#the-interesting-parts)
@@ -26,6 +31,19 @@ questions about the catalogue **and the customer's own orders** — including
 - [Deployment](#deployment)
 - [Honest limitations](#honest-limitations)
 - [Contact](#contact)
+
+---
+
+## Screenshots
+
+| | |
+| --- | --- |
+| ![Category showcase](docs/screenshots/02-category-showcase.png) | ![Product detail](docs/screenshots/03-product-detail.png) |
+| **Shop by category** — a sticky category rail beside four-up product grids, so every row is filled | **Product page** — four-image gallery, price block and a full specification table |
+| ![Catalogue with filters](docs/screenshots/04-catalogue-filters.png) | ![Checkout](docs/screenshots/05-checkout.png) |
+| **Catalogue** — filter by category, brand and price, with the grid behind the open panel | **Checkout** — online payment or cash on delivery, priced identically on the server |
+| ![AI assistant](docs/screenshots/06-ai-assistant.png) | |
+| **"Ask" the assistant** — grounded in the catalogue and in your own orders, with citations | |
 
 ---
 
